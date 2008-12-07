@@ -6,9 +6,18 @@ class MoritzGenerator < Rails::Generator::NamedBase
 
   def manifest
     record do |m|
-      m.directory File.join(*%w(app models), class_path)
-      m.template 'model.rb', File.join(*%w(app models), class_path, "#{filename}.rb")
+      path = File.join(*(%w(app models) + class_path))
+      model = File.join(*(%w(app models) + class_path + ["#{file_name}.rb_"]))
+      #model = "#{file_name}.rb"
+      puts path
+      puts model
+      m.directory(path)
+      m.template('model.rb', model)
     end
+  end
+
+  def map_all_models_with_associations
+    #...
   end
 
   protected

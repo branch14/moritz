@@ -28,9 +28,9 @@ module Moritz
       # converts Foo::BarController to 'bar' and FooBarsController to 'foo_bar'
       # and AddressController to 'address' 
       model_id = self.to_s.split('::').last.sub(/Controller$/, '').pluralize.singularize.underscore unless model_id
-      @relation_browser_config = RelationBrowser::Config.new(model_id)
+      @relation_browser_config = Moritz::Config.new(model_id)
       #if @relation_browser_config.model.extended_by.include?(ActiveRecord::Acts::NestedSet::ClassMethods) 
-      include RelationBrowser::InstanceMethods
+      include Moritz::InstanceMethods
       #end 
     end
     

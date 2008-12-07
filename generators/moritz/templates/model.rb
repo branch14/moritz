@@ -1,10 +1,10 @@
 class <%= class_name %>
     
+  # please make your adjustments at the end of this file
+
   attr_accessor :obj_class
   attr_accessor :obj_id
   attr_accessor :object
-  
-  # --- methods
   
   def initialize(model_id)
     model, id = model_id.split('_')
@@ -29,48 +29,18 @@ class <%= class_name %>
   # --- nested set stuff 
   
   def full_set # array of itself and all children and nested children (this plus descendants)
-    rv = []
-    rv << self
-    rv += self.children
-    rv
+    [self] + self.children
   end
   
   def children # array of all children and nested children (all descendants) 
-    list = self.direct_children
-    rv = []
-    rv += list
-    list.each do |i|
-      rv += i.direct_children
-    end
-    rv
-  end
-  
-##   def direct_children # array of immediate children
-##     rv = []
-##     obj.class.reflect_on_all_associations.each do |a|
-##       m, n = a.macro, a.name
-##       rv << obj.send(n) if (m==:belongs_to && obj.send(n))
-##       rv += obj.send(n) if( m==:has_many || m==:has_and_belongs_to_many)
-##     end
-##     rv.collect { |i| self.class.new("#{i.class.name}_#{i.id}") }
-##   end
-
-  def association_methods
-    case obj
-      <%
-        files = Dir.glob("app/models/**/*.rb")
-        files += Dir.glob("vendor/plugins/**/app/models/*.rb") if @options.plugins_models 
-        files.each do |file|
-          model_name = File.basename(file, '.rb').camelize
-      %>
-          when <%= model_name %>
-      <%
-          klass = Kernel.const_get(model_name)
-          assocs = klass.reflect_on_all_associations.map(&:name)
-      %>
-          <%= assocs.inspect %>
-      <% end %>
-    end
+    #list = self.direct_children
+    #rv = []
+    #rv += list
+    #list.each do |i|
+    #  rv += i.direct_children
+    #end
+    #rv
+    self.direct_children.inject([]) { |r, a| r += a + a.direct_children }
   end
 
   def direct_children # array of immediate children
@@ -82,4 +52,25 @@ class <%= class_name %>
     rv.collect { |i| self.class.new("#{i.class.name}_#{i.id}") }
   end
   
+  # --------------------------------------------------------------------------------
+  # please make your ajustments here
+
+  def association_methods
+    case obj
+      <%
+        files = Dir.glob("app/models/**/*.rb")
+        files.each do |file|
+          model_name = File.basename(file, '.rb').camelize
+          next if model_name == file_name
+      -%>
+    when <%= model_name %>
+      <%
+          klass = Kernel.const_get(model_name)
+          assocs = klass.reflect_on_all_associations.map(&:name)
+      -%>
+      <%= assocs.inspect %>
+      <% end -%>
+    end
+  end
+
 end
