@@ -1,0 +1,58 @@
+xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
+
+xml.RelationViewerData 'status_code' => 0, 'status_message' => 'Success' do 
+  xml.Settings( :appTitle => "#Global Art Museum Relationships", 
+                :startID => "RB",
+                :defaultRadius => "80", 
+                :maxRadius => "150" ) do
+    xml.RelationTypes do
+      xml.UndirectedRelation( :color => "0x85CDE4",
+                              :lineSize => "4",
+                              :labelText => "association",
+                              :letterSymbol => "B" )
+      xml.DirectedRelation( :color => "0x1263FE",
+                            :lineSize => "4",
+                            :labelText => "association",
+                            :letterSymbol => "B" )
+    end
+    xml.NodeTypes do
+      xml.Node 
+    end
+  end
+  xml.Nodes do
+    xml.Node( :id => "#{@root.class.to_s}-#{@root.id}", 
+              :name => @root.name, 
+              :dataURL => url_for( :controller => :special,
+                                   :action => "children", 
+                                   :id => @root.id 
+                                 )  
+            )
+    @root.direct_children.each do |child| 
+      xml.Node( :id => "#{child.class.to_s}-#{child.id}", 
+                :name => child.name, 
+                :dataURL => url_for( :controller => :special,
+                                     :action => "children", 
+                                     :id => child.id
+                                   )
+              )
+    end
+  end
+  xml.Relations do
+    label_text = @root.class.to_s
+    letter_symbol = @root.class.to_s[/^./]
+    xml.UndirectedRelation( :fromID => "RB", 
+                            :toID => "#{@root.class.to_s}-#{@root.id}",
+                            :letterSymbol => letter_symbol,
+                            :labelText => label_text
+                          )
+    @root.direct_children.each do |child| 
+      label_text = child.class.to_s
+      letter_symbol = child.class.to_s[/^./]
+      xml.DirectedRelation( :toID => "#{@root.class.to_s}-#{@root.id}",
+                            :fromID => "#{child.class.to_s}-#{child.id}",
+                            :letterSymbol => letter_symbol,
+                            :labelText => label_text
+                          ) unless child.nil?
+    end
+  end
+end
