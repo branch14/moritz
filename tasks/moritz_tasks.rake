@@ -12,15 +12,15 @@ namespace :moritz do
   task :install => :init do
     model, controller = ENV['model'], ENV['controller']
     # generate a proxy model
-    args = %w(moritz #{model})
+    args = ['moritz', model]
     Rails::Generator::Scripts::Generate.new.run(args)
     # generate a proxy controller, if not exist
     unless File.exist?("app/controller/#{controller}_controller.rb")
-      args = %w(controller #{controller})
+      args = ['controller', controller]
       Rails::Generator::Scripts::Generate.new.run(args)
     end
     # insert "relation_browser :#{model}" as 2nd line of controller
-    path = File.join(%w(app controller #{controller}_controller.rb))
+    path = File.join(['app', 'controller', "#{controller}_controller.rb"])
     FileUtils.sh("sed -i '2i\\  relation_browser :#{model}' #{path}")
     # copy views
     path = File.join(%w(vendor plugins moritz resources views root.rxml))
