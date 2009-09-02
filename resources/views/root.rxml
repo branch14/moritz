@@ -1,7 +1,7 @@
 xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
 
 xml.RelationViewerData 'status_code' => 0, 'status_message' => 'Success' do 
-  xml.Settings( :appTitle => "#Global Art Museum Relationships", 
+  xml.Settings( :appTitle => "Relationships", 
                 :startID => "RB",
                 :defaultRadius => "80", 
                 :maxRadius => "150" ) do

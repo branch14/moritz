@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelationViewerData>
+<!-- Do not change anything above. -->
+
+<!-- ------------------- Settings -------------------------------->
+
+	<!--  
+		The settings node can have the following parameters:
+			appTitle:		The title displayed in the title text field (menu clip)
+			startID:		The starting point of the application (has to be a node ID)
+			defaultRadius:	The standard radius for placing surrounding nodes
+			maxRadius:		The maximum radius for placing surrounding nodes
+							(in case these are zig-zag-shifted to enhance legibility)
+		
+		You can add your own parameters, they will be available to actionscript 
+		as a property of the RelationBrowserSettings object with the same name
+		
+	-->
+	<Settings appTitle="Relation browser demo" startID="RB" defaultRadius="150" maxRadius="180">
+		<!--  
+			Define the default look of your relations.
+			IMPORTANT: each relation type must have a corresponding actionscript class of the same name. 
+			See RelationClasses.as for an example implementation of MyCustomRelation
+			
+			Available parameters are:
+				lineSize:	Line size in points. Labels and arrowheads will scale accordingly
+				color:		Line color in hex. 
+				labelText:	(optional) the tooltip text displayed on rollover
+				letterSymbol:(optional) the letter displayed in a little circle in the middle of the relation line
+		
+		-->
+		<RelationTypes>
+			<UndirectedRelation color="0x85CDE4" lineSize="4" labelText="association" letterSymbol="B"/>
+			<DirectedRelation color="0xAAAAAA" lineSize="4"/>
+			<MyCustomRelation color="0xB7C631" lineSize="4" labelText="created by" letterSymbol="C"/>
+			
+		</RelationTypes>
+		<!--  
+		
+			Enumerate all node types to be used in the following.
+			IMPORTANT: 	each relation type must have a corresponding actionscript class of the same name 
+						AND a movieclip symbol in the library with a linkage identifier of the same name 
+			See NodeClasses.as and the .fla file for an example implementation 
+		
+		-->
+		<NodeTypes>
+			<Node/>
+			<Comment/>
+			<Person/>
+			<Document/>
+		</NodeTypes>
+	</Settings>
+
+
+<!-- ------------------- Nodes ------------------------------ -->	
+
+
+	<Nodes>
+		<!--  
+			Define all occurring nodes
+			The tag name defines the class AND movieclip symbol to be used to display the node
+			
+			Available parameters are:
+				id:			Unique identifier for the node (case-sensitive). 
+				name:		Node title (displayed in center of the node)
+				
+			Additionally, you can add a description text as a child node. 
+			Make sure to add <![CDATA[ at the beginning and ]]> at the end of the description.
+			In actionscript, it will be available as _text property of the corresponding class instance.
+			
+			You can add any parameter you like; they will automatically be copied into the 
+			corresponding class instance. In this example, I added a URL property to some of the nodes.
+			In order to make these show up in the detail view, modify the getDetails() function in the
+			corresponding node class (see NodeClasses.as for an example).
+		
+		-->
+		<Node id="RB" name="Relation Browser" dataURL="">
+			
+			<![CDATA[This is a demo application to get you started in building your own Relation Browser views.]]>
+		</Node>
+		
+		<Person id="mo" name="Moritz Stefaner" dataURL=""/>
+		
+		<Node id="FHP" name="University of applied sciences Potsdam" dataURL=""/>
+		
+		<Node id="CC" name="Creative Commons License" URL="http://creativecommons.org/licenses/by-nc-sa/2.5/" dataURL="moreNodes.xml">
+			
+			<![CDATA[The source code and the graphics of the Relation Browser application are released under a Creative Commons License. Click the surrounding bubbles to understand the details.]]>
+		</Node>
+		
+		<Node id="NC" name="Non-commercial" dataURL="moreNodes.xml">
+			<![CDATA[This means:  Without my explicit permission, you may not use this work for commercial purposes.]]>
+		</Node>
+		
+		<Node id="SA" name="Share alike" dataURL="moreNodes.xml">
+			<![CDATA[This means:  If you alter, transform, or build upon this work, you may distribute the resulting work only under a license identical to this one.]]>
+		</Node>
+		
+		<Node id="ATT" name="Attribution" dataURL="moreNodes.xml">
+			<![CDATA[This means:  You must attribute the work in the manner specified by the author or licensor. In this case, it is sufficient to include a short notice into your web page or application. See the license file (license.txt) for details.]]>
+		</Node>
+		
+		<Document id="der-mo.net" name="http://der-mo.net" URL="http://der-mo.net" dataURL="moreNodes.xml"/>
+
+	</Nodes>
+
+<!-- ------------------- Relations ------------------------------ -->	
+
+	<Relations>
+    	<!--  
+    		Define all relations between the above defined nodes
+    		The tag name defines the class to be used to display the relation
+ 
+    		Available parameters are:
+    			fromID:		Unique identifier of the source node of the relation (case-sensitive). 
+    			toID:		Unique identifier of the target node of the relation (case-sensitive).
+ 
+ 			You can overwrite any of the parameters set in RelationTypes (like lineSize etc.)
+			per relation instance.
+    	-->
+		
+		<MyCustomRelation fromID="RB" toID="mo"/>
+		<DirectedRelation fromID="RB" toID="CC"/>
+		<DirectedRelation fromID="CC" toID="NC"/>
+		<DirectedRelation fromID="CC" toID="SA"/>
+		<DirectedRelation fromID="CC" toID="ATT"/>
+		<UndirectedRelation fromID="RB" toID="der-mo.net"/>
+		<UndirectedRelation fromID="mo" toID="der-mo.net"/>
+		<DirectedRelation fromID="mo" toID="FHP" labelText="studies at" letterSymbol="S"/>
+		
+	</Relations>
+	
+	
+<!-- Do not change anything below. -->	
+</RelationViewerData>
+

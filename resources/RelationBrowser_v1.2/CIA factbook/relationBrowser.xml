@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelationViewerData>
+	<Settings appTitle="Relation browser: CIA world factbook demo" WWWLinkTargetFrame="_blank" startID="cid-cia-Germany" defaultRadius="170" maxRadius="210">	
+		
+		<RelationTypes>
+			<hasBorderTo color="0x85CDE4" lineSize="4" labelText="has a border to" letterSymbol="B"/>
+			<isSpokenIn color="0xAAAAAA" lineSize="4" labelText="is spoken in" letterSymbol="S"/>
+			<isPartOf color="0xB7C631" lineSize="4" labelText="is part of" letterSymbol="P"/>
+			
+		</RelationTypes>
+		<NodeTypes>
+			<SpokenLanguage/>
+			<Ocean/>
+			<Country/>
+			<Continent/>
+		</NodeTypes>
+	</Settings>
+
+	<Nodes>
+		<Country capital="Harare" government="parliamentary democracy" indep_date="18 04 1980" gdp_total="18100" gdp_serv="46.4" gdp_ind="35.3" inflation="25.8" gdp_agri="18.3" infant_mortality="72.8" population_growth="1.41" population="11271314" total_area="390580" datacode="ZI" name="Zimbabwe" continent="Africa" id="cid-cia-Zimbabwe"/>
+		<Country capital="Lusaka" government="republic" indep_date="24 10 1964" gdp_total="8900" gdp_serv="46" gdp_ind="22" inflation="55" gdp_agri="32" infant_mortality="96.1" population_growth="2.11" population="9159072" total_area="752610" datacode="ZA" name="Zambia" continent="Africa" id="cid-cia-Zambia"/>
+		<Country capital="Kinshasa" government="republic with a strong presidential system" indep_date="30 06 1960" gdp_total="16500" inflation="12" infant_mortality="108" population_growth="1.67" population="46498539" total_area="2345410" datacode="CG" name="Zaire" continent="Africa" id="cid-cia-Zaire"/>
+		<Country capital="El Aaiun" government="legal status of territory and question of sovereignty unresolved" infant_mortality="145.82" population_growth="2.46" population="222631" total_area="266000" datacode="WI" name="Western Sahara" continent="Africa" id="cid-cia-Western-Sahara"/>
+		<Country capital="Kampala" government="republic" indep_date="09 10 1962" gdp_total="16800" gdp_serv="33" gdp_ind="12" inflation="6.1" gdp_agri="55" infant_mortality="99.4" population_growth="2.24" population="20158176" total_area="236040" datacode="UG" name="Uganda" continent="Africa" id="cid-cia-Uganda"/>
+		<Country capital="Tunis" government="republic" indep_date="20 03 1956" gdp_total="37100" gdp_serv="55" gdp_ind="30" inflation="5.5" gdp_agri="15" infant_mortality="35.1" population_growth="1.81" population="9019687" total_area="163610" datacode="TS" name="Tunisia" continent="Africa" id="cid-cia-Tunisia"/>
+		<Country government="French possession administered by Commissioner of the Republic" total_area="1" datacode="TE" name="Tromelin Island" continent="Africa" id="cid-cia-Tromelin-Island"/>
+		<Country capital="Lome" government="republic under transition to multiparty democratic rule" indep_date="27 04 1960" gdp_total="4100" gdp_serv="33.1" gdp_ind="17.7" inflation="8.8" gdp_agri="49.2" infant_mortality="84.3" population_growth="3.56" population="4570530" total_area="56790" datacode="TO" name="Togo" continent="Africa" id="cid-cia-Togo"/>
+		<Country capital="Dar es Salaam" government="republic" indep_date="26 04 1964" gdp_total="23100" gdp_serv="34" gdp_ind="8" inflation="25" gdp_agri="58" infant_mortality="105.9" population_growth="1.15" population="29058470" total_area="945090" datacode="TZ" name="Tanzania" continent="Africa" id="cid-cia-Tanzania"/>
+		<Country capital="Mbabane" government="monarchy" indep_date="06 09 1968" gdp_total="3600" gdp_serv="35" gdp_ind="40" inflation="14.7" gdp_agri="25" infant_mortality="88.4" population_growth="3.24" population="998730" total_area="17360" datacode="WZ" name="Swaziland" continent="Africa" id="cid-cia-Swaziland"/>
+		<Country capital="Khartoum" government="transitional previously ruling military junta" indep_date="01 01 1956" gdp_total="25000" gdp_serv="50" gdp_ind="17" inflation="66" gdp_agri="33" infant_mortality="76" population_growth="3.48" population="31547543" total_area="2505810" datacode="SU" name="Sudan" continent="Africa" id="cid-cia-Sudan"/>
+		<Country capital="Pretoria" government="republic" indep_date="31 05 1910" gdp_total="215000" inflation="8.7" infant_mortality="48.8" population_growth="1.76" population="41743459" total_area="1219912" datacode="SF" name="South Africa" continent="Africa" id="cid-cia-South-Africa"/>
+		<Country capital="Mogadishu" government="none" indep_date="01 07 1960" gdp_total="3600" infant_mortality="121.1" population_growth="3.1" population="9639151" total_area="637660" datacode="SO" name="Somalia" continent="Africa" id="cid-cia-Somalia"/>
+		<Country capital="Freetown" government="constitutional democracy" indep_date="27 04 1961" gdp_total="4400" gdp_serv="43" gdp_ind="17" inflation="24" gdp_agri="40" infant_mortality="135.6" population_growth="4.14" population="4793121" total_area="71740" datacode="SL" name="Sierra Leone" continent="Africa" id="cid-cia-Sierra-Leone"/>
+		<Country capital="Victoria" government="republic" indep_date="29 06 1976" gdp_total="430" inflation="3.9" infant_mortality="12.5" population_growth="0.76" population="77575" total_area="455" datacode="SE" name="Seychelles" continent="Africa" id="cid-cia-Seychelles"/>
+		<Country capital="Dakar" government="republic under multiparty democratic rule" indep_date="20 08 1960" gdp_total="14500" inflation="6.1" infant_mortality="64" population_growth="3.37" population="9092749" total_area="196190" datacode="SG" name="Senegal" continent="Africa" id="cid-cia-Senegal"/>
+		<Country capital="Sao Tome" government="republic" indep_date="12 07 1975" gdp_total="138" gdp_serv="58" gdp_ind="14" inflation="38" gdp_agri="28" infant_mortality="61.1" population_growth="2.58" population="144128" total_area="960" datacode="TP" name="Sao Tome and Principe" continent="Africa" id="cid-cia-Sao-Tome-and-Principe"/>
+		<Country capital="Jamestown" government="dependent territory of the UK" infant_mortality="35.14" population_growth="0.31" population="6782" total_area="410" datacode="SH" name="Saint Helena" continent="Africa" id="cid-cia-Saint-Helena"/>
+		<Country capital="Kigali" government="republic" indep_date="01 07 1962" gdp_total="3800" gdp_serv="35" gdp_ind="13" inflation="64" gdp_agri="52" infant_mortality="118.8" population_growth="16.49" population="6853359" total_area="26340" datacode="RW" name="Rwanda" continent="Africa" id="cid-cia-Rwanda"/>
+		<Country capital="Saint Denis" government="overseas department of France" gdp_total="2900" infant_mortality="7.5" population_growth="1.93" population="679198" total_area="2510" datacode="RE" name="Reunion" continent="Africa" id="cid-cia-Reunion"/>
+		<Ocean name="Gulf Of Guinea" id="Gulf Of Guinea" _text="Gulf Of Guinea"/>
+		<Country capital="Abuja" government="military government" indep_date="01 10 1960" gdp_total="135900" gdp_serv="40" gdp_ind="22" inflation="57" gdp_agri="38" infant_mortality="72.4" population_growth="3.05" population="103912489" total_area="923770" datacode="NI" name="Nigeria" continent="Africa" id="cid-cia-Nigeria"/>
+		<Country capital="Niamey" government="republic" indep_date="03 08 1960" gdp_total="5500" gdp_serv="43.6" gdp_ind="17.9" inflation="35.6" gdp_agri="38.5" infant_mortality="117.6" population_growth="2.99" population="9113001" total_area="1267000" datacode="NG" name="Niger" continent="Africa" id="cid-cia-Niger"/>
+		<SpokenLanguage id="Afrikaans" _text="60" name="Afrikaans"/>
+		<Country capital="Windhoek" government="republic" indep_date="21 03 1990" gdp_total="5800" inflation="11" infant_mortality="47.2" population_growth="2.93" population="1677243" total_area="825418" datacode="WA" name="Namibia" continent="Africa" id="cid-cia-Namibia"/>
+		<Country capital="Maputo" government="republic" indep_date="25 06 1975" gdp_total="12200" gdp_serv="55" gdp_ind="12" inflation="50" gdp_agri="33" infant_mortality="125.6" population_growth="2.65" population="17877927" total_area="801590" datacode="MZ" name="Mozambique" continent="Africa" id="cid-cia-Mozambique"/>
+		<Country capital="Rabat" government="constitutional monarchy" indep_date="02 03 1956" gdp_total="87400" gdp_serv="53.5" gdp_ind="32.2" inflation="5.4" gdp_agri="14.3" infant_mortality="43.2" population_growth="2.05" population="29779156" total_area="446550" datacode="MO" name="Morocco" continent="Africa" id="cid-cia-Morocco"/>
+		<Country capital="Mamoutzou" government="territorial collectivity of France" gdp_total="54" infant_mortality="75.3" population_growth="3.78" population="100838" total_area="375" datacode="MF" name="Mayotte" continent="Africa" id="cid-cia-Mayotte"/>
+		<Country capital="Port Louis" government="parliamentary democracy" indep_date="12 03 1968" gdp_total="10900" inflation="9.4" infant_mortality="17.2" population_growth="1.23" population="1140256" total_area="1860" datacode="MP" name="Mauritius" continent="Africa" id="cid-cia-Mauritius"/>
+		<Country capital="Nouakchott" government="republic" indep_date="28 11 1960" gdp_total="2800" gdp_serv="43.4" gdp_ind="29.5" inflation="3.5" gdp_agri="27.1" infant_mortality="81.7" population_growth="3.17" population="2336048" total_area="1030700" datacode="MR" name="Mauritania" continent="Africa" id="cid-cia-Mauritania"/>
+		<SpokenLanguage id="Bambara" _text="80" name="Bambara"/>
+		<Country capital="Bamako" government="republic" indep_date="22 09 1960" gdp_total="5400" gdp_serv="42.2" gdp_ind="15.4" inflation="8" gdp_agri="42.4" infant_mortality="102.7" population_growth="2.95" population="9653261" total_area="1240000" datacode="ML" name="Mali" continent="Africa" id="cid-cia-Mali"/>
+		<Country capital="Lilongwe" government="multiparty democracy" indep_date="06 07 1964" gdp_total="6900" gdp_serv="55" gdp_ind="14" inflation="83.3" gdp_agri="31" infant_mortality="139.9" population_growth="1.71" population="9452844" total_area="118480" datacode="MI" name="Malawi" continent="Africa" id="cid-cia-Malawi"/>
+		<Country capital="Antananarivo" government="republic" indep_date="26 06 1960" gdp_total="11400" gdp_serv="50" gdp_ind="15" inflation="35" gdp_agri="35" infant_mortality="93.5" population_growth="2.83" population="13670507" total_area="587040" datacode="MA" name="Madagascar" continent="Africa" id="cid-cia-Madagascar"/>
+		<Country capital="Tripoli" government="Jamahiriya in theory" indep_date="24 12 1951" gdp_total="32900" inflation="25" infant_mortality="59.5" population_growth="3.67" population="5445436" total_area="1759540" datacode="LY" name="Libya" continent="Africa" id="cid-cia-Libya"/>
+		<Country capital="Monrovia" government="republic" gdp_total="2300" inflation="50" infant_mortality="108.1" population_growth="2.13" population="2109789" total_area="111370" datacode="LI" name="Liberia" continent="Africa" id="cid-cia-Liberia"/>
+		<Country capital="Maseru" government="modified constitutional monarchy" indep_date="04 10 1966" gdp_total="2800" gdp_serv="40.8" gdp_ind="48.8" inflation="9.5" gdp_agri="10.4" infant_mortality="81.6" population_growth="1.9" population="1970781" total_area="30350" datacode="LT" name="Lesotho" continent="Africa" id="cid-cia-Lesotho"/>
+		<Country capital="Nairobi" government="republic" indep_date="12 12 1963" gdp_total="36800" gdp_serv="54" gdp_ind="19" inflation="1.7" gdp_agri="27" infant_mortality="55.3" population_growth="2.27" population="28176686" total_area="582650" datacode="KE" name="Kenya" continent="Africa" id="cid-cia-Kenya"/>
+		<Country government="French possession administered by Commissioner of the Republic" total_area="4.4" datacode="JU" name="Juan de Nova Island" continent="Africa" id="cid-cia-Juan-de-Nova-Island"/>
+		<Country government="territory of Australia administered by the Ministry for Environment" total_area="412" datacode="HM" name="Heard Island and McDonald Islands" continent="Africa" id="cid-cia-Heard-Island-and-McDonald-Islands"/>
+		<Country capital="Bissau" government="republic" indep_date="10 09 1974" gdp_total="1000" gdp_serv="48" gdp_ind="8" inflation="15" gdp_agri="44" infant_mortality="115.8" population_growth="2.35" population="1151330" total_area="36120" datacode="PU" name="Guinea-Bissau" continent="Africa" id="cid-cia-Guinea-Bissau"/>
+		<Country capital="Conakry" government="republic" indep_date="02 10 1958" gdp_total="6500" gdp_serv="45" gdp_ind="31" inflation="4.1" gdp_agri="24" infant_mortality="134.1" population_growth="1.85" population="7411981" total_area="245860" datacode="GV" name="Guinea" continent="Africa" id="cid-cia-Guinea"/>
+		<Country government="French possession administered by Commissioner of the Republic" total_area="5" datacode="GO" name="Glorioso Islands" continent="Africa" id="cid-cia-Glorioso-Islands"/>
+		<Country capital="Accra" government="constitutional democracy" indep_date="06 03 1957" gdp_total="25100" gdp_serv="37" gdp_ind="16" inflation="69" gdp_agri="47" infant_mortality="80.3" population_growth="2.29" population="17698271" total_area="238540" datacode="GH" name="Ghana" continent="Africa" id="cid-cia-Ghana"/>
+		<Country capital="Banjul" government="republic under multiparty democratic rule" indep_date="18 02 1965" gdp_total="1100" gdp_serv="58" gdp_ind="15" inflation="1.7" gdp_agri="27" infant_mortality="80.5" population_growth="3.55" population="1204984" total_area="11300" datacode="GA" name="Gambia" continent="Africa" id="cid-cia-Gambia"/>
+		<Country capital="Libreville" government="republic" indep_date="17 08 1960" gdp_total="6000" gdp_serv="47.1" gdp_ind="44.7" inflation="15" gdp_agri="8.2" infant_mortality="90.1" population_growth="1.47" population="1172798" total_area="267670" datacode="GB" name="Gabon" continent="Africa" id="cid-cia-Gabon"/>
+		<Ocean name="Adelie Land" id="Adelie Land" _text="Adelie Land"/>
+		<Ocean name="French-claimed" id="French-claimed" _text="French-claimed"/>
+		<Ocean name="Iles Kerguelen" id="Iles Kerguelen" _text="Iles Kerguelen"/>
+		<Ocean name="Iles Crozet" id="Iles Crozet" _text="Iles Crozet"/>
+		<Ocean name="Ile Saint-Paul" id="Ile Saint-Paul" _text="Ile Saint-Paul"/>
+		<Ocean name="Ile Amsterdam" id="Ile Amsterdam" _text="Ile Amsterdam"/>
+		<Ocean name="Antarctic Lands" id="Antarctic Lands" _text="Antarctic Lands"/>
+		<Ocean name="French Southern" id="French Southern" _text="French Southern"/>
+		<Ocean name="Australia" id="Australia" _text="Australia"/>
+		<Ocean name="Antarctica" id="Antarctica" _text="Antarctica"/>
+		<Country government="overseas territory of France since 1955" total_area="7781" datacode="FS" name="French Southern and Antarctic Lands" continent="Africa" id="cid-cia-French-Southern-and-Antarctic-Lands"/>
+		<Country government="French possession administered by Commissioner of the Republic" total_area="28" datacode="EU" name="Europa Island" continent="Africa" id="cid-cia-Europa-Island"/>
+		<Country capital="Addis Ababa" government="federal republic" gdp_total="24200" gdp_serv="37" gdp_ind="15" inflation="10" gdp_agri="48" infant_mortality="122.8" population_growth="2.72" population="57171662" total_area="1127127" datacode="ET" name="Ethiopia" continent="Africa" id="cid-cia-Ethiopia"/>
+		<Country capital="Asmara" government="transitional government" indep_date="27 05 1993" gdp_total="2000" inflation="10" infant_mortality="118.9" population_growth="2.79" population="3427883" total_area="121320" datacode="ER" name="Eritrea" continent="Africa" id="cid-cia-Eritrea"/>
+		<Country capital="Malabo" government="republic in transition to multiparty democracy" indep_date="12 10 1968" gdp_total="325" gdp_serv="27" gdp_ind="26" inflation="41" gdp_agri="47" infant_mortality="98" population_growth="2.58" population="431282" total_area="28050" datacode="EK" name="Equatorial Guinea" continent="Africa" id="cid-cia-Equatorial-Guinea"/>
+		<Country capital="Cairo" government="republic" indep_date="28 02 1922" gdp_total="171000" inflation="9.4" infant_mortality="72.8" population_growth="1.91" population="63575107" total_area="1001450" datacode="EG" name="Egypt" continent="Africa" id="cid-cia-Egypt"/>
+		<Country capital="Djibouti" government="republic" indep_date="27 06 1977" gdp_total="500" gdp_serv="76" gdp_ind="21" inflation="6" gdp_agri="3" infant_mortality="106.7" population_growth="1.5" population="427642" total_area="22000" datacode="DJ" name="Djibouti" continent="Africa" id="cid-cia-Djibouti"/>
+		<Country capital="Yamoussoukro" government="republic" indep_date="07 08 1960" gdp_total="21900" gdp_serv="39" gdp_ind="24" inflation="10" gdp_agri="37" infant_mortality="82.4" population_growth="2.92" population="14762445" total_area="322460" datacode="IV" name="Cote dIvoire" continent="Africa" id="cid-cia-Cote-dIvoire"/>
+		<Country capital="Brazzaville" government="republic" indep_date="15 08 1960" gdp_total="7700" gdp_serv="53.4" gdp_ind="35.2" inflation="61" gdp_agri="11.4" infant_mortality="108.1" population_growth="2.19" population="2527841" total_area="342000" datacode="CF" name="Congo" continent="Africa" id="cid-cia-Congo"/>
+		<Country capital="Moroni" government="independent republic" indep_date="06 07 1975" gdp_total="370" inflation="15" infant_mortality="75.3" population_growth="3.55" population="569237" total_area="2170" datacode="CN" name="Comoros" continent="Africa" id="cid-cia-Comoros"/>
+		<Country capital="NDjamena" government="republic" indep_date="11 08 1960" gdp_total="3300" gdp_serv="34" gdp_ind="17" inflation="41" gdp_agri="49" infant_mortality="120.4" population_growth="2.68" population="6976845" total_area="1284000" datacode="CD" name="Chad" continent="Africa" id="cid-cia-Chad"/>
+		<Country capital="Bangui" government="republic" indep_date="13 08 1960" gdp_total="2500" gdp_serv="36" gdp_ind="14" inflation="45" gdp_agri="50" infant_mortality="111.7" population_growth="2.08" population="3274426" total_area="622980" datacode="CT" name="Central African Republic" continent="Africa" id="cid-cia-Central-African-Republic"/>
+		<Ocean name="Islands" id="Islands" _text="Islands"/>
+		<Country capital="Praia" government="republic" indep_date="05 07 1975" gdp_total="440" gdp_serv="70" gdp_ind="17" inflation="5" gdp_agri="13" infant_mortality="54.3" population_growth="2.93" population="449066" total_area="4030" datacode="CV" name="Cape Verde" continent="Africa" id="cid-cia-Cape-Verde"/>
+		<Country capital="Yaounde" government="unitary republic" indep_date="01 01 1960" gdp_total="16500" gdp_serv="47" gdp_ind="24" inflation="48" gdp_agri="29" infant_mortality="78.7" population_growth="2.89" population="14261557" total_area="475440" datacode="CM" name="Cameroon" continent="Africa" id="cid-cia-Cameroon"/>
+		<Country capital="Bujumbura" government="republic" indep_date="01 07 1962" gdp_total="4000" gdp_serv="29.1" gdp_ind="16.8" inflation="10" gdp_agri="54.1" infant_mortality="102.2" population_growth="1.54" population="5943057" total_area="27830" datacode="BY" name="Burundi" continent="Africa" id="cid-cia-Burundi"/>
+		<Country capital="Ouagadougou" government="parliamentary" indep_date="05 08 1960" gdp_total="7400" gdp_serv="44" gdp_ind="24" inflation="5" gdp_agri="32" infant_mortality="117.8" population_growth="2.53" population="10623323" total_area="274200" datacode="UV" name="Burkina Faso" continent="Africa" id="cid-cia-Burkina-Faso"/>
+		<Ocean name="Cape Of Good Hope (South Africa)" id="Cape Of Good Hope (South Africa)" _text="Cape Of Good Hope (South Africa)"/>
+		<Country government="territory of Norway" total_area="58" datacode="BV" name="Bouvet Island" continent="Africa" id="cid-cia-Bouvet-Island"/>
+		<Country capital="Gaborone" government="parliamentary republic" indep_date="30 09 1966" gdp_total="4500" inflation="10" gdp_agri="5" infant_mortality="54.2" population_growth="1.63" population="1477630" total_area="600370" datacode="BC" name="Botswana" continent="Africa" id="cid-cia-Botswana"/>
+		<Country capital="Porto Novo" government="republic under multiparty democratic rule dropped Marxism Leninism December 1989" indep_date="01 08 1960" gdp_total="7600" gdp_serv="50.6" gdp_ind="12.6" inflation="55" gdp_agri="36.8" infant_mortality="105.1" population_growth="3.32" population="5709529" total_area="112620" datacode="BN" name="Benin" continent="Africa" id="cid-cia-Benin"/>
+		<Ocean name="Mozambique Channel" id="Mozambique Channel" _text="Mozambique Channel"/>
+		<Country government="French possession administered by a Commissioner of the Republic" total_area="0.2" datacode="BS" name="Bassas da India" continent="Africa" id="cid-cia-Bassas-da-India"/>
+		<Country capital="Luanda" government="transitional government nominally a multiparty democracy with a strong presidential system" indep_date="11 11 1975" gdp_total="7400" gdp_serv="32" gdp_ind="56" inflation="20" gdp_agri="12" infant_mortality="138.9" population_growth="2.68" population="10342899" total_area="1246700" datacode="AO" name="Angola" continent="Africa" id="cid-cia-Angola"/>
+		<Country capital="Algiers" government="republic" indep_date="05 07 1962" gdp_total="108700" gdp_serv="38" gdp_ind="50" inflation="28" gdp_agri="12" infant_mortality="48.7" population_growth="2.21" population="29183032" total_area="2381740" datacode="AG" name="Algeria" continent="Africa" id="cid-cia-Algeria"/>
+		<Country capital="Caracas" government="republic" indep_date="05 07 1811" gdp_total="195500" gdp_serv="54" gdp_ind="41" inflation="57" gdp_agri="5" infant_mortality="29.5" population_growth="1.89" population="21983188" total_area="912050" datacode="VE" name="Venezuela" continent="South America" id="cid-cia-Venezuela"/>
+		<Country capital="Montevideo" government="republic" indep_date="25 08 1828" gdp_total="24400" gdp_serv="62" gdp_ind="27.5" inflation="35.4" gdp_agri="10.5" infant_mortality="15.4" population_growth="0.7" population="3238952" total_area="176220" datacode="UY" name="Uruguay" continent="South America" id="cid-cia-Uruguay"/>
+		<Country capital="Paramaribo" government="republic" indep_date="25 11 1975" gdp_total="1300" gdp_serv="54.7" gdp_ind="23.7" inflation="62" gdp_agri="21.6" infant_mortality="29.3" population_growth="1.6" population="436418" total_area="163270" datacode="NS" name="Suriname" continent="South America" id="cid-cia-Suriname"/>
+		<Country government="dependent territory of the UK" total_area="4066" datacode="SX" name="South Georgia and the South Sandwich Islands" continent="South America" id="cid-cia-South-Georgia-and-the-South-Sandwich-Islands"/>
+		<Country capital="Lima" government="republic" indep_date="28 07 1821" gdp_total="87000" inflation="10.2" infant_mortality="52.2" population_growth="1.74" population="24523408" total_area="1285220" datacode="PE" name="Peru" continent="South America" id="cid-cia-Peru"/>
+		<Country capital="Asuncion" government="republic" indep_date="14 05 1811" gdp_total="17000" gdp_serv="48.5" gdp_ind="25.8" inflation="10.5" gdp_agri="25.7" infant_mortality="23.2" population_growth="2.67" population="5504146" total_area="406750" datacode="PA" name="Paraguay" continent="South America" id="cid-cia-Paraguay"/>
+		<Country capital="Georgetown" government="republic" indep_date="26 05 1966" gdp_total="1600" gdp_serv="45.7" gdp_ind="27.8" inflation="8.1" gdp_agri="26.5" infant_mortality="51.4" population_growth="-0.9" population="712091" total_area="214970" datacode="GY" name="Guyana" continent="South America" id="cid-cia-Guyana"/>
+		<Country capital="Cayenne" government="overseas department of France" gdp_total="800" inflation="2.5" infant_mortality="14.6" population_growth="3.86" population="151187" total_area="91000" datacode="FG" name="French Guiana" continent="South America" id="cid-cia-French-Guiana"/>
+		<Country capital="Stanley" government="dependent territory of the UK" population_growth="2.43" population="2374" total_area="12170" datacode="FA" name="Falkland Islands" continent="South America" id="cid-cia-Falkland-Islands"/>
+		<Country capital="Quito" government="republic" indep_date="24 05 1822" gdp_total="44600" gdp_serv="48" gdp_ind="39" inflation="25" gdp_agri="13" infant_mortality="34.8" population_growth="1.96" population="11466291" total_area="283560" datacode="EC" name="Ecuador" continent="South America" id="cid-cia-Ecuador"/>
+		<Country capital="Bogota" government="republic" indep_date="20 07 1810" gdp_total="192500" gdp_serv="49.5" gdp_ind="29" inflation="19.5" gdp_agri="21.5" infant_mortality="25.8" population_growth="1.66" population="36813161" total_area="1138910" datacode="CO" name="Colombia" continent="South America" id="cid-cia-Colombia"/>
+		<Country capital="Santiago" government="republic" indep_date="18 09 1810" gdp_total="113200" gdp_serv="56.2" gdp_ind="36.4" inflation="8.1" gdp_agri="7.4" infant_mortality="13.6" population_growth="1.24" population="14333258" total_area="756950" datacode="CI" name="Chile" continent="South America" id="cid-cia-Chile"/>
+		<Country capital="Brasilia" government="federal republic" indep_date="07 09 1822" gdp_total="976800" gdp_serv="59" gdp_ind="25" inflation="23" gdp_agri="16" infant_mortality="55.3" population_growth="1.16" population="162661214" total_area="8511965" datacode="BR" name="Brazil" continent="South America" id="cid-cia-Brazil"/>
+		<Country capital="La Paz" government="republic" indep_date="06 08 1825" gdp_total="20000" inflation="12" infant_mortality="67.5" population_growth="1.82" population="7165257" total_area="1098580" datacode="BL" name="Bolivia" continent="South America" id="cid-cia-Bolivia"/>
+		<Ocean name="South Atlantic Ocean" id="South Atlantic Ocean" _text="South Atlantic Ocean"/>
+		<Country capital="Buenos Aires" government="republic" indep_date="09 07 1816" gdp_total="278500" gdp_serv="63" gdp_ind="31" inflation="1.7" gdp_agri="6" infant_mortality="28.3" population_growth="1.1" population="34672997" total_area="2766890" datacode="AR" name="Argentina" continent="South America" id="cid-cia-Argentina"/>
+		<Country capital="Apia" government="constitutional monarchy under native chief" indep_date="01 01 1962" gdp_total="415" inflation="18" gdp_agri="50" infant_mortality="34.3" population_growth="2.37" population="214384" total_area="2860" datacode="WS" name="Western Samoa" continent="Australia/Oceania" id="cid-cia-Western-Samoa"/>
+		<Country capital="Mata Utu" government="overseas territory of France" gdp_total="28.7" infant_mortality="23.59" population_growth="1.11" population="14659" total_area="274" datacode="WF" name="Wallis and Futuna" continent="Australia/Oceania" id="cid-cia-Wallis-and-Futuna"/>
+		<Country government="unincorporated territory of the US administered by the US Army and Strategic Defense Command since 1 October 1994" population_growth="0" total_area="6.5" datacode="WQ" name="Wake Island" continent="Australia/Oceania" id="cid-cia-Wake-Island"/>
+		<Country capital="Port Vila" government="republic" indep_date="30 07 1980" gdp_total="210" inflation="7" infant_mortality="64.6" population_growth="2.17" population="177504" total_area="14760" datacode="NH" name="Vanuatu" continent="Australia/Oceania" id="cid-cia-Vanuatu"/>
+		<Country capital="Funafuti" government="democracy" indep_date="01 10 1978" gdp_total="7.8" inflation="2.9" infant_mortality="27.6" population_growth="1.51" population="10146" total_area="26" datacode="TV" name="Tuvalu" continent="Australia/Oceania" id="cid-cia-Tuvalu"/>
+		<Country capital="Nukualofa" government="hereditary constitutional monarchy" indep_date="04 06 1970" gdp_total="228" inflation="3" gdp_agri="40" infant_mortality="40.26" population_growth="0.82" population="106466" total_area="748" datacode="TN" name="Tonga" continent="Australia/Oceania" id="cid-cia-Tonga"/>
+		<Country government="territory of New Zealand" gdp_total="1.5" population_growth="-1.35" population="1482" total_area="10" datacode="TL" name="Tokelau" continent="Australia/Oceania" id="cid-cia-Tokelau"/>
+		<Country capital="Honiara" government="parliamentary democracy" indep_date="07 07 1978" gdp_total="1000" inflation="13" infant_mortality="25.8" population_growth="3.35" population="412902" total_area="28450" datacode="BP" name="Solomon Islands" continent="Australia/Oceania" id="cid-cia-Solomon-Islands"/>
+		<Country capital="Adamstown" government="dependent territory of the UK" population_growth="0" population="56" total_area="47" datacode="PC" name="Pitcairn Islands" continent="Australia/Oceania" id="cid-cia-Pitcairn-Islands"/>
+		<Country government="incorporated territory of the US" total_area="11.9" datacode="LQ" name="Palmyra Atoll" continent="Australia/Oceania" id="cid-cia-Palmyra-Atoll"/>
+		<Country capital="Koror" government="constitutional government in free association with the US" indep_date="01 10 1994" gdp_total="81.8" infant_mortality="25.07" population_growth="1.71" population="16952" total_area="458" datacode="PS" name="Palau" continent="Australia/Oceania" id="cid-cia-Palau"/>
+		<Country capital="Saipan" government="commonwealth in political union with the US" gdp_total="524" inflation="6.5" infant_mortality="37.96" population_growth="3.04" population="52284" total_area="477" datacode="CQ" name="Northern Mariana Islands" continent="Australia/Oceania" id="cid-cia-Northern-Mariana-Islands"/>
+		<Country capital="Kingston" government="territory of Australia" population_growth="-0.68" population="2209" total_area="34.6" datacode="NF" name="Norfolk Island" continent="Australia/Oceania" id="cid-cia-Norfolk-Island"/>
+		<Country capital="Alofi" government="self governing territory in free association with New Zealand" indep_date="19 10 1974" gdp_total="2.4" inflation="5" population_growth="-0.62" population="2174" total_area="260" datacode="NE" name="Niue" continent="Australia/Oceania" id="cid-cia-Niue"/>
+		<Country capital="Wellington" government="parliamentary democracy" indep_date="26 09 1907" gdp_total="62300" gdp_serv="66.8" gdp_ind="25.9" inflation="2" gdp_agri="7.3" infant_mortality="6.7" population_growth="1.12" population="3547983" total_area="268680" datacode="NZ" name="New Zealand" continent="Australia/Oceania" id="cid-cia-New-Zealand"/>
+		<Country capital="Noumea" government="overseas territory of France since 1956" gdp_total="1500" gdp_serv="60" gdp_ind="35" inflation="1.4" gdp_agri="5" infant_mortality="13.8" population_growth="1.72" population="187784" total_area="19060" datacode="NC" name="New Caledonia" continent="Australia/Oceania" id="cid-cia-New-Caledonia"/>
+		<Country capital="no official capital" government="republic" indep_date="31 01 1968" gdp_total="100" inflation="-3.6" infant_mortality="40.6" population_growth="1.33" population="10273" total_area="21" datacode="NR" name="Nauru" continent="Australia/Oceania" id="cid-cia-Nauru"/>
+		<Ocean name="Honolulu" id="Honolulu" _text="Honolulu"/>
+		<Ocean name="Tokyo" id="Tokyo" _text="Tokyo"/>
+		<Country government="unincorporated territory of the US formerly administered by the US Navy" total_area="5.2" datacode="MQ" name="Midway Islands" continent="Australia/Oceania" id="cid-cia-Midway-Islands"/>
+		<Country capital="Kolonia" government="constitutional government in free association with the US" indep_date="03 11 1986" gdp_total="205" inflation="4" infant_mortality="35.8" population_growth="3.34" population="125377" total_area="702" datacode="FM" name="Micronesia" continent="Australia/Oceania" id="cid-cia-Micronesia"/>
+		<Country capital="Majuro" government="constitutional government in free association with the US" indep_date="21 10 1986" gdp_total="94" inflation="4" infant_mortality="46.9" population_growth="3.85" population="58363" total_area="181.3" datacode="RM" name="Marshall Islands" continent="Australia/Oceania" id="cid-cia-Marshall-Islands"/>
+		<Ocean name="International Date Line" id="International Date Line" _text="International Date Line"/>
+		<Country capital="Tarawa" government="republic" indep_date="12 07 1979" gdp_total="68" inflation="5.5" infant_mortality="52.9" population_growth="1.89" population="80919" total_area="717" datacode="KR" name="Kiribati" continent="Australia/Oceania" id="cid-cia-Kiribati"/>
+		<Country government="unincorporated territory of the US administered by the US Navy" total_area="1" datacode="KQ" name="Kingman Reef" continent="Australia/Oceania" id="cid-cia-Kingman-Reef"/>
+		<Country government="unincorporated territory of the US administered by the US Defense Nuclear Agency and managed cooperatively by DNA and the Fish and Wildlife Service of the US Department of the Interior as part of the National Wildlife Refuge system" total_area="2.8" datacode="JQ" name="Johnston Atoll" continent="Australia/Oceania" id="cid-cia-Johnston-Atoll"/>
+		<Country government="unincorporated territory of the US administered by the Fish and Wildlife Service of the US Department of the Interior as part of the National Wildlife Refuge System" total_area="4.5" datacode="DQ" name="Jarvis Island" continent="Australia/Oceania" id="cid-cia-Jarvis-Island"/>
+		<Country government="unincorporated territory of the US administered by the Fish and Wildlife Service of the US Department of the Interior as part of the National Wildlife Refuge System" total_area="1.6" datacode="HQ" name="Howland Island" continent="Australia/Oceania" id="cid-cia-Howland-Island"/>
+		<Country capital="Agana" government="organized" gdp_total="2000" inflation="4" infant_mortality="15.17" population_growth="2.34" population="156974" total_area="541.3" datacode="GQ" name="Guam" continent="Australia/Oceania" id="cid-cia-Guam"/>
+		<Country capital="Papeete" government="overseas territory of France since 1946" gdp_total="1760" gdp_serv="78" gdp_ind="18" inflation="1.5" gdp_agri="4" infant_mortality="14.4" population_growth="2.19" population="224911" total_area="4167" datacode="FP" name="French Polynesia" continent="Australia/Oceania" id="cid-cia-French-Polynesia"/>
+		<Country capital="Suva" government="republic" indep_date="10 10 1970" gdp_total="4700" gdp_serv="61" gdp_ind="17" inflation="2" gdp_agri="22" infant_mortality="17.4" population_growth="1.28" population="782381" total_area="18270" datacode="FJ" name="Fiji" continent="Australia/Oceania" id="cid-cia-Fiji"/>
+		<Country government="territory of Australia administered by the Ministry for Environment" datacode="CR" name="Coral Sea Islands" continent="Australia/Oceania" id="cid-cia-Coral-Sea-Islands"/>
+		<Country capital="Avarua" government="self governing parliamentary government in free association with New Zealand" gdp_total="57" inflation="6.2" infant_mortality="24.7" population_growth="1.11" population="19561" total_area="240" datacode="CW" name="Cook Islands" continent="Australia/Oceania" id="cid-cia-Cook-Islands"/>
+		<Country government="unincorporated territory of the US administered by the Fish and Wildlife Service of the US Department of the Interior as part of the National Wildlife Refuge system" total_area="1.4" datacode="FQ" name="Baker Island" continent="Australia/Oceania" id="cid-cia-Baker-Island"/>
+		<Country capital="Canberra" government="federal parliamentary state" indep_date="01 01 1901" gdp_total="405400" gdp_serv="69.2" gdp_ind="27.7" inflation="4.75" gdp_agri="3.1" infant_mortality="5.5" population_growth="0.99" population="18260863" total_area="7686850" datacode="AS" name="Australia" continent="Australia/Oceania" id="cid-cia-Australia"/>
+		<Country capital="Pago Pago" government="unincorporated and unorganized territory of the US" gdp_total="128" infant_mortality="18.78" population_growth="3.77" population="59566" total_area="199" datacode="AQ" name="American Samoa" continent="Australia/Oceania" id="cid-cia-American-Samoa"/>
+		<Country capital="Charlotte Amalie" government="organized" gdp_total="1200" infant_mortality="12.54" population_growth="-0.06" population="97120" total_area="352" datacode="VQ" name="Virgin Islands" continent="North America" id="cid-cia-Virgin-Islands"/>
+		<Country capital="Washington" government="federal republic" indep_date="04 07 1776" gdp_total="7247700" gdp_serv="75" gdp_ind="23" inflation="2.5" gdp_agri="2" infant_mortality="6.7" population_growth="0.91" population="266476278" total_area="9372610" datacode="US" name="United States" continent="North America" id="cid-cia-United-States"/>
+		<Ocean name="The Bahamas" id="The Bahamas" _text="The Bahamas"/>
+		<Country capital="Grand Turk" government="dependent territory of the UK" gdp_total="80.8" infant_mortality="12.57" population_growth="2.14" population="14302" total_area="430" datacode="TK" name="Turks and Caicos Islands" continent="North America" id="cid-cia-Turks-and-Caicos-Islands"/>
+		<Country capital="Port of Spain" government="parliamentary democracy" indep_date="31 08 1962" gdp_total="16200" gdp_serv="50.7" gdp_ind="44.5" inflation="5.4" gdp_agri="4.8" infant_mortality="18.2" population_growth="0.08" population="1272385" total_area="5130" datacode="TD" name="Trinidad and Tobago" continent="North America" id="cid-cia-Trinidad-and-Tobago"/>
+		<Country capital="Kingstown" government="constitutional monarchy" indep_date="27 10 1979" gdp_total="240" gdp_serv="42.9" gdp_ind="33.1" inflation="-0.2" gdp_agri="24" infant_mortality="16.8" population_growth="0.64" population="118344" total_area="340" datacode="VC" name="Saint Vincent and the Grenadines" continent="North America" id="cid-cia-Saint-Vincent-and-the-Grenadines"/>
+		<Ocean name="Newfoundland (Canada)" id="Newfoundland (Canada)" _text="Newfoundland (Canada)"/>
+		<Country capital="Saint Pierre" government="territorial collectivity of France" gdp_total="68" infant_mortality="9.95" population_growth="0.77" population="6809" total_area="242" datacode="SB" name="Saint Pierre and Miquelon" continent="North America" id="cid-cia-Saint-Pierre-and-Miquelon"/>
+		<Country capital="Castries" government="parliamentary democracy" indep_date="22 02 1979" gdp_total="640" gdp_serv="68.8" gdp_ind="17.4" inflation="0.8" gdp_agri="13.8" infant_mortality="20" population_growth="1.14" population="157862" total_area="620" datacode="ST" name="Saint Lucia" continent="North America" id="cid-cia-Saint-Lucia"/>
+		<Country capital="Basseterre" government="constitutional monarchy" indep_date="19 09 1983" gdp_total="220" gdp_serv="58.1" gdp_ind="35.7" inflation="-0.9" gdp_agri="6.2" infant_mortality="18.9" population_growth="0.98" population="41369" total_area="269" datacode="SC" name="Saint Kitts and Nevis" continent="North America" id="cid-cia-Saint-Kitts-and-Nevis"/>
+		<Country capital="San Juan" government="commonwealth associated with the US" gdp_total="29700" inflation="2.9" infant_mortality="12.4" population_growth="0.18" population="3819023" total_area="9104" datacode="RQ" name="Puerto Rico" continent="North America" id="cid-cia-Puerto-Rico"/>
+		<Country capital="Panama" government="constitutional republic" indep_date="03 11 1903" gdp_total="13600" gdp_serv="74" gdp_ind="16" inflation="1.1" gdp_agri="10" infant_mortality="29.7" population_growth="1.64" population="2655094" total_area="78200" datacode="PM" name="Panama" continent="North America" id="cid-cia-Panama"/>
+		<Country capital="Managua" government="republic" indep_date="15 09 1821" gdp_total="7100" inflation="11.4" infant_mortality="45.8" population_growth="2.67" population="4272352" total_area="129494" datacode="NU" name="Nicaragua" continent="North America" id="cid-cia-Nicaragua"/>
+		<Ocean name="Bonaire" id="Bonaire" _text="Bonaire"/>
+		<Ocean name="Curacao" id="Curacao" _text="Curacao"/>
+		<Country capital="Willemstad" government="part of the Dutch realm" gdp_total="1920" inflation="1.5" infant_mortality="8.9" population_growth="1.03" population="208968" total_area="960" datacode="NT" name="Netherlands Antilles" continent="North America" id="cid-cia-Netherlands-Antilles"/>
+		<Country government="unincorporated territory of the US administered by the US Coast Guard" total_area="5.2" datacode="BQ" name="Navassa Island" continent="North America" id="cid-cia-Navassa-Island"/>
+		<Country capital="Plymouth" government="dependent territory of the UK" gdp_total="55.6" gdp_serv="76.8" gdp_ind="18.4" inflation="9.6" gdp_agri="4.8" infant_mortality="11.78" population_growth="0.28" population="12771" total_area="100" datacode="MH" name="Montserrat" continent="North America" id="cid-cia-Montserrat"/>
+		<Ocean name="Gulf Of Mexico" id="Gulf Of Mexico" _text="Gulf Of Mexico"/>
+		<Country capital="Mexico" government="federal republic operating under a centralized government" indep_date="16 09 1810" gdp_total="721400" gdp_serv="63.1" gdp_ind="28.4" inflation="52" gdp_agri="8.5" infant_mortality="25" population_growth="1.87" population="95772462" total_area="1972550" datacode="MX" name="Mexico" continent="North America" id="cid-cia-Mexico"/>
+		<Country capital="Fort de France" government="overseas department of France" gdp_total="3950" gdp_serv="83" gdp_ind="11" inflation="3.9" gdp_agri="6" infant_mortality="7.1" population_growth="1.1" population="399151" total_area="1100" datacode="MB" name="Martinique" continent="North America" id="cid-cia-Martinique"/>
+		<Country capital="Kingston" government="parliamentary democracy" indep_date="06 08 1962" gdp_total="8200" gdp_serv="64" gdp_ind="28.1" inflation="25.5" gdp_agri="7.9" infant_mortality="15.6" population_growth="0.8" population="2595275" total_area="10990" datacode="JM" name="Jamaica" continent="North America" id="cid-cia-Jamaica"/>
+		<Country capital="Tegucigalpa" government="republic" indep_date="15 09 1821" gdp_total="10800" gdp_serv="50" gdp_ind="20" inflation="30" gdp_agri="30" infant_mortality="41.8" population_growth="2.6" population="5605193" total_area="112090" datacode="HO" name="Honduras" continent="North America" id="cid-cia-Honduras"/>
+		<Country capital="Port au Prince" government="republic" indep_date="01 01 1804" gdp_total="6500" gdp_serv="42.2" gdp_ind="23" inflation="14.5" gdp_agri="34.8" infant_mortality="103.8" population_growth="1.77" population="6731539" total_area="27750" datacode="HA" name="Haiti" continent="North America" id="cid-cia-Haiti"/>
+		<SpokenLanguage id="Indian" _text="40" name="Indian"/>
+		<Country capital="Guatemala" government="republic" indep_date="15 09 1821" gdp_total="36700" gdp_serv="55" gdp_ind="20" inflation="9" gdp_agri="25" infant_mortality="50.7" population_growth="2.48" population="11277614" total_area="108890" datacode="GT" name="Guatemala" continent="North America" id="cid-cia-Guatemala"/>
+		<Country capital="Basse Terre" government="overseas department of France" gdp_total="3700" gdp_serv="85" gdp_ind="9" inflation="3.7" gdp_agri="6" infant_mortality="8.3" population_growth="1.2" population="407768" total_area="1780" datacode="GP" name="Guadeloupe" continent="North America" id="cid-cia-Guadeloupe"/>
+		<Country capital="Saint Georges" government="parliamentary democracy" indep_date="07 02 1974" gdp_total="284" gdp_serv="49.5" gdp_ind="40.3" inflation="3" gdp_agri="10.2" infant_mortality="11.9" population_growth="0.55" population="94961" total_area="340" datacode="GJ" name="Grenada" continent="North America" id="cid-cia-Grenada"/>
+		<Country capital="Nuuk" government="part of the Danish realm" gdp_total="892" inflation="1.3" infant_mortality="23.8" population_growth="1" population="58203" total_area="2175600" datacode="GL" name="Greenland" continent="North America" id="cid-cia-Greenland"/>
+		<Country capital="San Salvador" government="republic" indep_date="15 09 1821" gdp_total="11400" inflation="11.4" infant_mortality="31.9" population_growth="1.81" population="5828987" total_area="21040" datacode="ES" name="El Salvador" continent="North America" id="cid-cia-El-Salvador"/>
+		<Ocean name="Hispaniola" id="Hispaniola" _text="Hispaniola"/>
+		<Country capital="Santo Domingo" government="republic" indep_date="27 02 1844" gdp_total="26800" gdp_serv="55" gdp_ind="32" inflation="9.5" gdp_agri="13" infant_mortality="47.7" population_growth="1.73" population="8088881" total_area="48730" datacode="DR" name="Dominican Republic" continent="North America" id="cid-cia-Dominican-Republic"/>
+		<Ocean name="Tobago" id="Tobago" _text="Tobago"/>
+		<Ocean name="Trinidad" id="Trinidad" _text="Trinidad"/>
+		<Country capital="Roseau" government="parliamentary democracy" indep_date="03 11 1978" gdp_total="200" inflation="0.4" gdp_agri="26" infant_mortality="9.6" population_growth="0.38" population="82926" total_area="750" datacode="DO" name="Dominica" continent="North America" id="cid-cia-Dominica"/>
+		<SpokenLanguage id="Spanish" _text="100" name="Spanish"/>
+		<Country capital="Havana" government="Communist state" indep_date="20 05 1902" gdp_total="14700" gdp_serv="63" gdp_ind="30" gdp_agri="7" infant_mortality="9" population_growth="0.44" population="10951334" total_area="110860" datacode="CU" name="Cuba" continent="North America" id="cid-cia-Cuba"/>
+		<Country capital="San Jose" government="democratic republic" indep_date="15 09 1821" gdp_total="18400" inflation="22.5" infant_mortality="13.5" population_growth="2.06" population="3463083" total_area="51100" datacode="CS" name="Costa Rica" continent="North America" id="cid-cia-Costa-Rica"/>
+		<Ocean name="120" id="120" _text="120"/>
+		<Ocean name="1" id="1" _text="1"/>
+		<Country government="French possession administered by France from French Polynesia by the High Commissioner of the Republic" total_area="7" datacode="IP" name="Clipperton Island" continent="North America" id="cid-cia-Clipperton-Island"/>
+		<Country capital="George Town" government="dependent territory of the UK" gdp_total="750" gdp_serv="95.4" gdp_ind="3.2" inflation="1.8" gdp_agri="1.4" infant_mortality="8.4" population_growth="4.27" population="34646" total_area="260" datacode="CJ" name="Cayman Islands" continent="North America" id="cid-cia-Cayman-Islands"/>
+		<Ocean name="US" id="US" _text="US"/>
+		<Country capital="Ottawa" government="confederation with parliamentary democracy" indep_date="01 07 1867" gdp_total="694000" gdp_serv="72" gdp_ind="26" inflation="2.4" gdp_agri="2" infant_mortality="6.1" population_growth="1.06" population="28820671" total_area="9976140" datacode="CA" name="Canada" continent="North America" id="cid-cia-Canada"/>
+		<Country capital="Road Town" government="dependent territory of the UK" gdp_total="133" inflation="2.5" infant_mortality="19.16" population_growth="1.29" population="13195" total_area="150" datacode="VI" name="British Virgin Islands" continent="North America" id="cid-cia-British-Virgin-Islands"/>
+		<Ocean name="North Carolina (US)" id="North Carolina (US)" _text="North Carolina (US)"/>
+		<Country capital="Hamilton" government="dependent territory of the UK" gdp_total="1700" inflation="2.6" infant_mortality="13.16" population_growth="0.76" population="62099" total_area="50" datacode="BD" name="Bermuda" continent="North America" id="cid-cia-Bermuda"/>
+		<Country capital="Belmopan" government="parliamentary democracy" indep_date="21 09 1981" gdp_total="575" inflation="2.3" gdp_agri="30" infant_mortality="33.9" population_growth="2.42" population="219296" total_area="22960" datacode="BH" name="Belize" continent="North America" id="cid-cia-Belize"/>
+		<Country capital="Bridgetown" government="parliamentary democracy" indep_date="30 11 1966" gdp_total="2500" gdp_serv="54.3" gdp_ind="39.3" inflation="1.7" gdp_agri="6.4" infant_mortality="18.7" population_growth="0.26" population="257030" total_area="430" datacode="BB" name="Barbados" continent="North America" id="cid-cia-Barbados"/>
+		<Ocean name="Florida" id="Florida" _text="Florida"/>
+		<Country capital="Nassau" government="commonwealth" indep_date="10 07 1973" gdp_total="4800" gdp_serv="62" gdp_ind="35" inflation="1.5" gdp_agri="3" infant_mortality="23.3" population_growth="1.05" population="259367" total_area="13940" datacode="BF" name="Bahamas" continent="North America" id="cid-cia-Bahamas"/>
+		<Country capital="Oranjestad" government="part of the Dutch realm" gdp_total="1200" inflation="6.1" infant_mortality="8.2" population_growth="0.31" population="67794" total_area="193" datacode="AA" name="Aruba" continent="North America" id="cid-cia-Aruba"/>
+		<Country capital="Saint Johns" government="parliamentary democracy" indep_date="01 11 1981" gdp_total="425" gdp_serv="77.2" gdp_ind="19.3" inflation="3.5" gdp_agri="3.5" infant_mortality="17.2" population_growth="0.76" population="65647" total_area="440" datacode="AC" name="Antigua and Barbuda" continent="North America" id="cid-cia-Antigua-and-Barbuda"/>
+		<Ocean name="Caribbean Sea" id="Caribbean Sea" _text="Caribbean Sea"/>
+		<Country capital="The Valley" government="dependent territory of the UK" gdp_total="53" inflation="4" infant_mortality="23" population_growth="3.45" population="10424" total_area="91" datacode="AV" name="Anguilla" continent="North America" id="cid-cia-Anguilla"/>
+		<Ocean name="Gulf Of Aden" id="Gulf Of Aden" _text="Gulf Of Aden"/>
+		<Country capital="Sanaa" government="republic" indep_date="22 05 1990" gdp_total="37100" gdp_serv="55" gdp_ind="24" inflation="71.3" gdp_agri="21" infant_mortality="71.5" population_growth="3.56" population="13483178" total_area="527970" datacode="YM" name="Yemen" continent="Asia" id="cid-cia-Yemen"/>
+		<Country gdp_total="3700" gdp_serv="60" gdp_ind="7" inflation="14" gdp_agri="33" infant_mortality="28.6" population_growth="4.99" population="1427741" total_area="5860" datacode="WE" name="West Bank" continent="Asia" id="cid-cia-West-Bank"/>
+		<Ocean name="Gulf Of Tonkin" id="Gulf Of Tonkin" _text="Gulf Of Tonkin"/>
+		<Country capital="Hanoi" government="Communist state" indep_date="02 09 1945" gdp_total="97000" gdp_serv="44" gdp_ind="28" inflation="14" gdp_agri="28" infant_mortality="38.4" population_growth="1.57" population="73976973" total_area="329560" datacode="VM" name="Vietnam" continent="Asia" id="cid-cia-Vietnam"/>
+		<SpokenLanguage id="Tajik" _text="4.4" name="Tajik"/>
+		<Country capital="Tashkent" government="republic" indep_date="31 08 1991" gdp_total="54700" inflation="7.7" infant_mortality="79.6" population_growth="1.87" population="23418381" total_area="447400" datacode="UZ" name="Uzbekistan" continent="Asia" id="cid-cia-Uzbekistan"/>
+		<Country capital="Abu Dhabi" government="federation with specified powers delegated to the UAE central government and other powers reserved to member emirates" indep_date="02 12 1971" gdp_total="70100" gdp_serv="43" gdp_ind="55" inflation="4.6" gdp_agri="2" infant_mortality="20.4" population_growth="4.33" population="3057337" total_area="75581" datacode="TC" name="United Arab Emirates" continent="Asia" id="cid-cia-United-Arab-Emirates"/>
+		<SpokenLanguage id="Turkmen" _text="72" name="Turkmen"/>
+		<SpokenLanguage id="Uzbek" _text="74.3" name="Uzbek"/>
+		<Country capital="Ashgabat" government="republic" indep_date="27 10 1991" gdp_total="11500" gdp_serv="34.1" gdp_ind="33.4" inflation="25" gdp_agri="32.5" infant_mortality="81.6" population_growth="1.82" population="4149283" total_area="488100" datacode="TX" name="Turkmenistan" continent="Asia" id="cid-cia-Turkmenistan"/>
+		<Country capital="Ankara" government="republican parliamentary democracy" indep_date="29 10 1923" gdp_total="345700" gdp_serv="51.3" gdp_ind="33.2" inflation="94" gdp_agri="15.5" infant_mortality="43.2" population_growth="1.67" population="62484478" total_area="780580" datacode="TU" name="Turkey" continent="Asia" id="cid-cia-Turkey"/>
+		<Country capital="Bangkok" government="constitutional monarchy" indep_date="01 01 1238" gdp_total="416700" gdp_serv="59.2" gdp_ind="30.6" inflation="5.8" gdp_agri="10.2" infant_mortality="33.4" population_growth="1.03" population="58851357" total_area="514000" datacode="TH" name="Thailand" continent="Asia" id="cid-cia-Thailand"/>
+		<Country capital="Dushanbe" government="republic" indep_date="09 09 1991" gdp_total="6400" inflation="28" infant_mortality="113.1" population_growth="1.54" population="5916373" total_area="143100" datacode="TI" name="Tajikistan" continent="Asia" id="cid-cia-Tajikistan"/>
+		<Ocean name="Taiwan Strait" id="Taiwan Strait" _text="Taiwan Strait"/>
+		<Country capital="Taipei" government="multiparty democratic regime" gdp_total="290500" gdp_serv="59.1" gdp_ind="37.3" inflation="4" gdp_agri="3.6" infant_mortality="7" population_growth="0.89" population="21465881" total_area="35980" datacode="TW" name="Taiwan" continent="Asia" id="cid-cia-Taiwan"/>
+		<Country capital="Damascus" government="republic under military regime since March 1963" indep_date="17 04 1946" gdp_total="91200" gdp_serv="45" gdp_ind="25" inflation="15.1" gdp_agri="30" infant_mortality="40" population_growth="3.37" population="15608648" total_area="185180" datacode="SY" name="Syria" continent="Asia" id="cid-cia-Syria"/>
+		<SpokenLanguage id="Sinhala" _text="74" name="Sinhala"/>
+		<SpokenLanguage id="Tamil" _text="18" name="Tamil"/>
+		<Country capital="Colombo" government="republic" indep_date="04 02 1948" gdp_total="65600" gdp_serv="52" gdp_ind="24" inflation="8.4" gdp_agri="24" infant_mortality="20.8" population_growth="1.13" population="18553074" total_area="65610" datacode="CE" name="Sri Lanka" continent="Asia" id="cid-cia-Sri-Lanka"/>
+		<Country datacode="PG" name="Spratly Islands" continent="Asia" id="cid-cia-Spratly-Islands"/>
+		<Country capital="Singapore" government="republic within Commonwealth" indep_date="09 08 1965" gdp_total="66100" gdp_serv="72" gdp_ind="28" inflation="1.7" infant_mortality="4.7" population_growth="1.9" population="3396924" total_area="632.6" datacode="SN" name="Singapore" continent="Asia" id="cid-cia-Singapore"/>
+		<Ocean name="Red Sea" id="Red Sea" _text="Red Sea"/>
+		<Country capital="Riyadh" government="monarchy" indep_date="23 09 1932" gdp_total="189300" gdp_serv="41" gdp_ind="50" inflation="5" gdp_agri="9" infant_mortality="46.4" population_growth="3.45" population="19409058" total_area="1960582" datacode="SA" name="Saudi Arabia" continent="Asia" id="cid-cia-Saudi-Arabia"/>
+		<Country capital="Moscow" government="federation" indep_date="24 08 1991" gdp_total="796000" gdp_serv="53" gdp_ind="41" inflation="7" gdp_agri="6" infant_mortality="24.7" population_growth="-0.07" population="148178487" total_area="17075200" datacode="RS" name="Russia" continent="Asia" id="cid-cia-Russia"/>
+		<Country capital="Doha" government="traditional monarchy" indep_date="03 09 1971" gdp_total="10700" gdp_serv="49" gdp_ind="50" inflation="3" gdp_agri="1" infant_mortality="19.6" population_growth="2.39" population="547761" total_area="11000" datacode="QA" name="Qatar" continent="Asia" id="cid-cia-Qatar"/>
+		<Ocean name="Philippine Sea" id="Philippine Sea" _text="Philippine Sea"/>
+		<Country capital="Manila" government="republic" indep_date="04 07 1946" gdp_total="179700" gdp_serv="48" gdp_ind="30" inflation="8.1" gdp_agri="22" infant_mortality="35.9" population_growth="2.18" population="74480848" total_area="300000" datacode="RP" name="Philippines" continent="Asia" id="cid-cia-Philippines"/>
+		<Country datacode="PF" name="Paracel Islands" continent="Asia" id="cid-cia-Paracel-Islands"/>
+		<Ocean name="South Pacific Ocean" id="South Pacific Ocean" _text="South Pacific Ocean"/>
+		<Ocean name="Coral Sea" id="Coral Sea" _text="Coral Sea"/>
+		<Ocean name="New Guinea" id="New Guinea" _text="New Guinea"/>
+		<Country capital="Port Moresby" government="parliamentary democracy" indep_date="16 09 1975" gdp_total="10200" inflation="15" infant_mortality="60.1" population_growth="2.29" population="4394537" total_area="461690" datacode="PP" name="Papua New Guinea" continent="Asia" id="cid-cia-Papua-New-Guinea"/>
+		<SpokenLanguage id="Siraiki" _text="10" name="Siraiki"/>
+		<SpokenLanguage id="Brahui" _text="1" name="Brahui"/>
+		<SpokenLanguage id="Hindko" _text="2" name="Hindko"/>
+		<SpokenLanguage id="Balochi" _text="3" name="Balochi"/>
+		<SpokenLanguage id="Sindhi" _text="12" name="Sindhi"/>
+		<SpokenLanguage id="Punjabi" _text="48" name="Punjabi"/>
+		<SpokenLanguage id="Urdu" _text="8" name="Urdu"/>
+		<Country capital="Islamabad" government="republic" indep_date="14 08 1947" gdp_total="274200" gdp_serv="49" gdp_ind="27" inflation="13" gdp_agri="24" infant_mortality="96.8" population_growth="2.24" population="129275660" total_area="803940" datacode="PK" name="Pakistan" continent="Asia" id="cid-cia-Pakistan"/>
+		<Ocean name="UAE" id="UAE" _text="UAE"/>
+		<Country capital="Muscat" government="monarchy" indep_date="01 01 1650" gdp_total="19100" gdp_serv="37" gdp_ind="60" inflation="-0.7" gdp_agri="3" infant_mortality="27.3" population_growth="3.53" population="2186548" total_area="212460" datacode="MU" name="Oman" continent="Asia" id="cid-cia-Oman"/>
+		<SpokenLanguage id="Nepali" _text="100" name="Nepali"/>
+		<Country capital="Kathmandu" government="parliamentary democracy as of 12 May 1991" indep_date="01 01 1768" gdp_total="25200" gdp_serv="32.3" gdp_ind="18.4" inflation="6.7" gdp_agri="49.3" infant_mortality="79" population_growth="2.45" population="22094033" total_area="140800" datacode="NP" name="Nepal" continent="Asia" id="cid-cia-Nepal"/>
+		<SpokenLanguage id="Khalkha Mongol" _text="90" name="Khalkha Mongol"/>
+		<Country capital="Ulaanbaatar" government="republic" indep_date="13 03 1921" gdp_total="4900" gdp_serv="37" gdp_ind="35" inflation="53" gdp_agri="28" infant_mortality="69.7" population_growth="1.69" population="2496617" total_area="1565000" datacode="MG" name="Mongolia" continent="Asia" id="cid-cia-Mongolia"/>
+		<Country capital="Male" government="republic" indep_date="26 07 1965" gdp_total="390" gdp_serv="63.2" gdp_ind="15.3" inflation="16.5" gdp_agri="21.5" infant_mortality="47" population_growth="3.52" population="270758" total_area="300" datacode="MV" name="Maldives" continent="Asia" id="cid-cia-Maldives"/>
+		<Ocean name="Borneo" id="Borneo" _text="Borneo"/>
+		<Country capital="Kuala Lumpur" government="constitutional monarchy" indep_date="31 08 1957" gdp_total="193600" gdp_serv="67" gdp_ind="25" inflation="5.3" gdp_agri="8" infant_mortality="24" population_growth="2.07" population="19962893" total_area="329750" datacode="MY" name="Malaysia" continent="Asia" id="cid-cia-Malaysia"/>
+		<Country capital="Macau" government="overseas territory of Portugal scheduled to revert to China in 1999" gdp_total="6400" inflation="8.6" infant_mortality="5.3" population_growth="1.15" population="496837" total_area="16" datacode="MC" name="Macau" continent="Asia" id="cid-cia-Macau"/>
+		<Country capital="Beirut" government="republic" indep_date="22 11 1943" gdp_total="18300" gdp_serv="59" gdp_ind="28" inflation="9" gdp_agri="13" infant_mortality="36.7" population_growth="2.16" population="3776317" total_area="10400" datacode="LE" name="Lebanon" continent="Asia" id="cid-cia-Lebanon"/>
+		<Country capital="Vientiane" government="Communist state" indep_date="19 07 1949" gdp_total="5200" gdp_serv="33" gdp_ind="17" inflation="20" gdp_agri="50" infant_mortality="96.8" population_growth="2.81" population="4975772" total_area="236800" datacode="LA" name="Laos" continent="Asia" id="cid-cia-Laos"/>
+		<Country capital="Bishkek" government="republic" indep_date="31 08 1991" gdp_total="5400" inflation="32" infant_mortality="77.8" population_growth="0.07" population="4529648" total_area="198500" datacode="KG" name="Kyrgyzstan" continent="Asia" id="cid-cia-Kyrgyzstan"/>
+		<Country capital="Kuwait" government="nominal constitutional monarchy" indep_date="19 06 1961" gdp_total="30800" gdp_serv="45" gdp_ind="55" inflation="5" gdp_agri="0" infant_mortality="11.1" population_growth="6.65" population="1950047" total_area="17820" datacode="KU" name="Kuwait" continent="Asia" id="cid-cia-Kuwait"/>
+		<Country capital="Seoul" government="republic" gdp_total="590700" gdp_serv="47" gdp_ind="45" inflation="4.3" gdp_agri="8" infant_mortality="8.2" population_growth="1.02" population="45482291" total_area="98480" datacode="KS" name="South Korea" continent="Asia" id="cid-cia-South-Korea"/>
+		<SpokenLanguage id="Korean" _text="100" name="Korean"/>
+		<Country capital="Pyongyang" government="Communist state" gdp_total="21500" gdp_serv="15" gdp_ind="60" gdp_agri="25" infant_mortality="25.9" population_growth="1.74" population="23904124" total_area="120540" datacode="KN" name="North Korea" continent="Asia" id="cid-cia-North-Korea"/>
+		<SpokenLanguage id="Kazak" _text="40" name="Kazak"/>
+		<Country capital="Almaty" government="republic" indep_date="16 12 1991" gdp_total="46900" gdp_serv="30" gdp_ind="41.5" inflation="60.3" gdp_agri="28.5" infant_mortality="63.2" population_growth="-0.15" population="16916463" total_area="2717300" datacode="KZ" name="Kazakstan" continent="Asia" id="cid-cia-Kazakstan"/>
+		<Country capital="Amman" government="constitutional monarchy" indep_date="25 05 1946" gdp_total="19300" gdp_serv="64" gdp_ind="25" inflation="3" gdp_agri="11" infant_mortality="31.5" population_growth="2.65" population="4212152" total_area="89213" datacode="JO" name="Jordan" continent="Asia" id="cid-cia-Jordan"/>
+		<Ocean name="Korean Peninsula" id="Korean Peninsula" _text="Korean Peninsula"/>
+		<Ocean name="Sea Of Japan" id="Sea Of Japan" _text="Sea Of Japan"/>
+		<Ocean name="North Pacific Ocean" id="North Pacific Ocean" _text="North Pacific Ocean"/>
+		<SpokenLanguage id="Japanese" _text="100" name="Japanese"/>
+		<Country capital="Tokyo" government="constitutional monarchy" gdp_total="2679200" gdp_serv="57.7" gdp_ind="40.2" inflation="-0.1" gdp_agri="2.1" infant_mortality="4.4" population_growth="0.21" population="125449703" total_area="377835" datacode="JA" name="Japan" continent="Asia" id="cid-cia-Japan"/>
+		<Country capital="Jerusalem" government="republic" indep_date="14 05 1948" gdp_total="80100" gdp_serv="74.5" gdp_ind="22" inflation="10.1" gdp_agri="3.5" infant_mortality="8.5" population_growth="2.11" population="5421995" total_area="20770" datacode="IS" name="Israel" continent="Asia" id="cid-cia-Israel"/>
+		<Country capital="Baghdad" government="republic" indep_date="03 10 1932" gdp_total="41100" infant_mortality="60" population_growth="3.69" population="21422292" total_area="437072" datacode="IZ" name="Iraq" continent="Asia" id="cid-cia-Iraq"/>
+		<Ocean name="Gulf Of Oman" id="Gulf Of Oman" _text="Gulf Of Oman"/>
+		<SpokenLanguage id="Turkic Turkic" _text="26" name="Turkic Turkic"/>
+		<SpokenLanguage id="Persian Persian" _text="58" name="Persian Persian"/>
+		<SpokenLanguage id="Luri" _text="2" name="Luri"/>
+		<SpokenLanguage id="Arabic" _text="100" name="Arabic"/>
+		<SpokenLanguage id="Kurdish" _text="9" name="Kurdish"/>
+		<SpokenLanguage id="Baloch" _text="1" name="Baloch"/>
+		<Country capital="Tehran" government="theocratic republic" indep_date="01 04 1979" gdp_total="323500" gdp_serv="42" gdp_ind="37" inflation="60" gdp_agri="21" infant_mortality="52.7" population_growth="2.21" population="66094264" total_area="1648000" datacode="IR" name="Iran" continent="Asia" id="cid-cia-Iran"/>
+		<Ocean name="Pacific Ocean" id="Pacific Ocean" _text="Pacific Ocean"/>
+		<Country capital="Jakarta" government="republic" indep_date="17 08 1945" gdp_total="710900" gdp_serv="50.4" gdp_ind="32.6" inflation="8.6" gdp_agri="17" infant_mortality="63.1" population_growth="1.53" population="206611600" total_area="1919440" datacode="ID" name="Indonesia" continent="Asia" id="cid-cia-Indonesia"/>
+		<Ocean name="Arabian Sea" id="Arabian Sea" _text="Arabian Sea"/>
+		<SpokenLanguage id="Hindi" _text="30" name="Hindi"/>
+		<Country capital="New Delhi" government="federal republic" indep_date="15 08 1947" gdp_total="1408700" inflation="9" infant_mortality="71.1" population_growth="1.64" population="952107694" total_area="3287590" datacode="IN" name="India" continent="Asia" id="cid-cia-India"/>
+		<Country capital="Victoria" government="dependent territory of the UK scheduled to revert to China on 1 July 1997" gdp_total="152400" gdp_serv="81.4" gdp_ind="18.4" inflation="8.4" gdp_agri="0.2" infant_mortality="5.1" population_growth="1.77" population="6305413" total_area="1040" datacode="HK" name="Hong Kong" continent="Asia" id="cid-cia-Hong-Kong"/>
+		<SpokenLanguage id="Georgian" _text="71" name="Georgian"/>
+		<Country capital="Tbilisi" government="republic" indep_date="09 04 1991" gdp_total="6200" gdp_serv="19.4" gdp_ind="10.2" inflation="2.2" gdp_agri="70.4" infant_mortality="22.5" population_growth="-1.02" population="5219810" total_area="69700" datacode="GG" name="Georgia" continent="Asia" id="cid-cia-Georgia"/>
+		<Country gdp_total="1700" inflation="5.7" infant_mortality="30.6" population_growth="4.55" population="813332" total_area="360" datacode="GZ" name="Gaza Strip" continent="Asia" id="cid-cia-Gaza-Strip"/>
+		<Country capital="Nicosia" government="republic" indep_date="16 08 1960" gdp_total="7800" gdp_serv="69.5" gdp_ind="24.9" gdp_agri="5.6" infant_mortality="8.4" population_growth="1.11" population="744609" total_area="9250" datacode="CY" name="Cyprus" continent="Asia" id="cid-cia-Cyprus"/>
+		<Country capital="West Island" government="territory of Australia" population_growth="0.94" population="609" total_area="14" datacode="CK" name="Cocos Islands" continent="Asia" id="cid-cia-Cocos-Islands"/>
+		<SpokenLanguage id="English" _text="100" name="English"/>
+		<Country capital="The Settlement" government="territory of Australia" population_growth="-8.98" population="813" total_area="135" datacode="KT" name="Christmas Island" continent="Asia" id="cid-cia-Christmas-Island"/>
+		<Ocean name="Yellow Sea" id="Yellow Sea" _text="Yellow Sea"/>
+		<Ocean name="Korea Bay" id="Korea Bay" _text="Korea Bay"/>
+		<Ocean name="East China Sea" id="East China Sea" _text="East China Sea"/>
+		<Country capital="Beijing" government="Communist state" gdp_total="3500000" gdp_serv="33" gdp_ind="48" inflation="10.1" gdp_agri="19" infant_mortality="39.6" population_growth="0.98" population="1210004956" total_area="9596960" datacode="CH" name="China" continent="Asia" id="cid-cia-China"/>
+		<Ocean name="Gulf Of Thailand" id="Gulf Of Thailand" _text="Gulf Of Thailand"/>
+		<Country capital="Phnom Penh" government="multiparty liberal democracy under a constitutional monarchy established in September 1993" indep_date="09 11 1949" gdp_total="7000" gdp_serv="34.5" gdp_ind="13.5" inflation="6" gdp_agri="52" infant_mortality="107.8" population_growth="2.77" population="10861218" total_area="181040" datacode="CB" name="Cambodia" continent="Asia" id="cid-cia-Cambodia"/>
+		<Ocean name="Andaman Sea" id="Andaman Sea" _text="Andaman Sea"/>
+		<SpokenLanguage id="Burmese" _text="100" name="Burmese"/>
+		<Country capital="Rangoon" government="military regime" indep_date="04 01 1948" gdp_total="47000" gdp_serv="30" gdp_ind="10" inflation="38" gdp_agri="60" infant_mortality="80.7" population_growth="1.84" population="45975625" total_area="678500" datacode="BM" name="Burma" continent="Asia" id="cid-cia-Burma"/>
+		<Ocean name="South China Sea" id="South China Sea" _text="South China Sea"/>
+		<Country capital="Bandar Seri Begawan" government="constitutional sultanate" indep_date="01 01 1984" gdp_total="4600" gdp_serv="55" gdp_ind="42" inflation="2.4" gdp_agri="3" infant_mortality="24.2" population_growth="2.56" population="299939" total_area="5770" datacode="BX" name="Brunei" continent="Asia" id="cid-cia-Brunei"/>
+		<Country government="dependent territory of the UK" total_area="60" datacode="IO" name="British Indian Ocean Territory" continent="Asia" id="cid-cia-British-Indian-Ocean-Territory"/>
+		<Country capital="Thimphu" government="monarchy" indep_date="08 08 1949" gdp_total="1300" inflation="8.6" infant_mortality="116.3" population_growth="2.32" population="1822625" total_area="47000" datacode="BT" name="Bhutan" continent="Asia" id="cid-cia-Bhutan"/>
+		<Ocean name="Bay Of Bengal" id="Bay Of Bengal" _text="Bay Of Bengal"/>
+		<Country capital="Dhaka" government="republic" indep_date="16 12 1971" gdp_total="144500" inflation="4.5" infant_mortality="102.3" population_growth="1.85" population="123062800" total_area="144000" datacode="BG" name="Bangladesh" continent="Asia" id="cid-cia-Bangladesh"/>
+		<Ocean name="Persian Gulf" id="Persian Gulf" _text="Persian Gulf"/>
+		<Country capital="Manama" government="traditional monarchy" indep_date="15 08 1971" gdp_total="7300" inflation="3" infant_mortality="17.1" population_growth="2.27" population="590042" total_area="620" datacode="BA" name="Bahrain" continent="Asia" id="cid-cia-Bahrain"/>
+		<Ocean name="Caspian Sea" id="Caspian Sea" _text="Caspian Sea"/>
+		<SpokenLanguage id="Azeri" _text="6" name="Azeri"/>
+		<Country capital="Baku" government="republic" indep_date="30 08 1991" gdp_total="11500" inflation="85" infant_mortality="74.5" population_growth="0.78" population="7676953" total_area="86600" datacode="AJ" name="Azerbaijan" continent="Asia" id="cid-cia-Azerbaijan"/>
+		<Ocean name="Indian Ocean" id="Indian Ocean" _text="Indian Ocean"/>
+		<Country government="territory of Australia administered by the Australian Ministry for the Environment" total_area="5" datacode="AT" name="Ashmore and Cartier Islands" continent="Asia" id="cid-cia-Ashmore-and-Cartier-Islands"/>
+		<SpokenLanguage id="Armenian" _text="7" name="Armenian"/>
+		<SpokenLanguage id="Russian" _text="14.2" name="Russian"/>
+		<Country capital="Yerevan" government="republic" indep_date="28 05 1918" gdp_total="9100" gdp_serv="7" gdp_ind="36" inflation="32.2" gdp_agri="57" infant_mortality="38.9" population_growth="0.02" population="3463574" total_area="29800" datacode="AM" name="Armenia" continent="Asia" id="cid-cia-Armenia"/>
+		<SpokenLanguage id="Afghan Persian" _text="50" name="Afghan Persian"/>
+		<SpokenLanguage id="Pashtu" _text="8" name="Pashtu"/>
+		<SpokenLanguage id="Turkic" _text="11" name="Turkic"/>
+		<Country capital="Kabul" government="transitional government" indep_date="19 08 1919" gdp_total="12800" gdp_serv="20" gdp_ind="15" gdp_agri="65" infant_mortality="149.7" population_growth="4.78" population="22664136" total_area="647500" datacode="AF" name="Afghanistan" continent="Asia" id="cid-cia-Afghanistan"/>
+		<Country capital="London" government="constitutional monarchy" indep_date="01 01 1801" gdp_total="1138400" gdp_serv="70.6" gdp_ind="27.7" inflation="3.1" gdp_agri="1.7" infant_mortality="6.4" population_growth="0.22" population="58489975" total_area="244820" datacode="UK" name="United Kingdom" continent="Europe" id="cid-cia-United-Kingdom"/>
+		<Country capital="Kiev" government="republic" indep_date="01 12 1991" gdp_total="174600" gdp_serv="26" gdp_ind="43" inflation="9" gdp_agri="31" infant_mortality="22.5" population_growth="-0.4" population="50864009" total_area="603700" datacode="UP" name="Ukraine" continent="Europe" id="cid-cia-Ukraine"/>
+		<SpokenLanguage id="Romansch" _text="1" name="Romansch"/>
+		<Country capital="Bern" government="federal republic" gdp_total="158500" gdp_serv="63.5" gdp_ind="33.5" inflation="1.8" gdp_agri="3" infant_mortality="5.4" population_growth="0.59" population="7207060" total_area="41290" datacode="SZ" name="Switzerland" continent="Europe" id="cid-cia-Switzerland"/>
+		<Ocean name="Skagerrak" id="Skagerrak" _text="Skagerrak"/>
+		<Country capital="Stockholm" government="constitutional monarchy" gdp_total="177300" gdp_serv="71" gdp_ind="27" inflation="2.6" gdp_agri="2" infant_mortality="4.5" population_growth="0.56" population="8900954" total_area="449964" datacode="SW" name="Sweden" continent="Europe" id="cid-cia-Sweden"/>
+		<Ocean name="Barents Sea" id="Barents Sea" _text="Barents Sea"/>
+		<Ocean name="Arctic Ocean" id="Arctic Ocean" _text="Arctic Ocean"/>
+		<Country capital="Longyearbyen" government="territory of Norway administered by the Ministry of Industry" population_growth="-4.01" population="2715" total_area="62049" datacode="SV" name="Svalbard" continent="Europe" id="cid-cia-Svalbard"/>
+		<SpokenLanguage id="Basque" _text="2" name="Basque"/>
+		<SpokenLanguage id="Galician" _text="7" name="Galician"/>
+		<SpokenLanguage id="Catalan" _text="17" name="Catalan"/>
+		<Country capital="Madrid" government="parliamentary monarchy" indep_date="01 01 1492" gdp_total="565000" gdp_serv="62.8" gdp_ind="33.6" inflation="4.3" gdp_agri="3.6" infant_mortality="6.3" population_growth="0.16" population="39181114" total_area="504750" datacode="SP" name="Spain" continent="Europe" id="cid-cia-Spain"/>
+		<SpokenLanguage id="Slovenian" _text="91" name="Slovenian"/>
+		<Country capital="Ljubljana" government="emerging democracy" indep_date="25 06 1991" gdp_total="22600" gdp_serv="54.8" gdp_ind="39.9" inflation="8" gdp_agri="5.3" infant_mortality="7.3" population_growth="-0.27" population="1951443" total_area="20256" datacode="SI" name="Slovenia" continent="Europe" id="cid-cia-Slovenia"/>
+		<Country capital="Bratislava" government="parliamentary democracy" indep_date="01 01 1993" gdp_total="39000" gdp_serv="45.7" gdp_ind="47.6" inflation="7.5" gdp_agri="6.7" infant_mortality="10.7" population_growth="0.34" population="5374362" total_area="48845" datacode="LO" name="Slovakia" continent="Europe" id="cid-cia-Slovakia"/>
+		<Country capital="Belgrade" government="republic" indep_date="11 04 1992" gdp_total="20600" inflation="20" population="10614558" total_area="102350" name="Serbia and Montenegro" continent="Europe" id="cid-cia-Serbia-and-Montenegro"/>
+		<SpokenLanguage id="Italian" _text="12" name="Italian"/>
+		<Country capital="San Marino" government="republic" indep_date="01 01 0301" gdp_total="380" inflation="5.5" infant_mortality="5.5" population_growth="0.82" population="24521" total_area="60" datacode="SM" name="San Marino" continent="Europe" id="cid-cia-San-Marino"/>
+		<Country capital="Bucharest" government="republic" indep_date="01 01 1881" gdp_total="105700" gdp_serv="44.1" gdp_ind="36.3" inflation="25" gdp_agri="19.6" infant_mortality="23.2" population_growth="-1.21" population="21657162" total_area="237500" datacode="RO" name="Romania" continent="Europe" id="cid-cia-Romania"/>
+		<SpokenLanguage id="Portuguese" _text="100" name="Portuguese"/>
+		<Country capital="Lisbon" government="republic" indep_date="01 01 1140" gdp_total="116200" gdp_serv="58.2" gdp_ind="35.8" inflation="4.6" gdp_agri="6" infant_mortality="7.6" population_growth="0.02" population="9865114" total_area="92080" datacode="PO" name="Portugal" continent="Europe" id="cid-cia-Portugal"/>
+		<SpokenLanguage id="Polish" _text="100" name="Polish"/>
+		<Country capital="Warsaw" government="democratic state" indep_date="11 11 1918" gdp_total="226700" gdp_serv="55" gdp_ind="38" inflation="21.6" gdp_agri="7" infant_mortality="12.4" population_growth="0.14" population="38642565" total_area="312683" datacode="PL" name="Poland" continent="Europe" id="cid-cia-Poland"/>
+		<SpokenLanguage id="Norwegian" _text="100" name="Norwegian"/>
+		<Country capital="Oslo" government="constitutional monarchy" indep_date="26 10 1905" gdp_total="106200" gdp_serv="62.4" gdp_ind="34.7" inflation="2.5" gdp_agri="2.9" infant_mortality="4.9" population_growth="0.48" population="4383807" total_area="324220" datacode="NO" name="Norway" continent="Europe" id="cid-cia-Norway"/>
+		<Country capital="Amsterdam" government="constitutional monarchy" indep_date="01 01 1579" gdp_total="301900" gdp_serv="69.7" gdp_ind="26.9" inflation="2.25" gdp_agri="3.4" infant_mortality="4.9" population_growth="0.56" population="15568034" total_area="37330" datacode="NL" name="Netherlands" continent="Europe" id="cid-cia-Netherlands"/>
+		<Country capital="Monaco" government="constitutional monarchy" indep_date="01 01 1419" gdp_total="788" infant_mortality="6.9" population_growth="0.59" population="31719" total_area="1.9" datacode="MN" name="Monaco" continent="Europe" id="cid-cia-Monaco"/>
+		<Country capital="Chisinau" government="republic" indep_date="27 08 1991" gdp_total="10400" gdp_serv="31" gdp_ind="36" inflation="24" gdp_agri="33" infant_mortality="47.6" population_growth="0.18" population="4463847" total_area="33700" datacode="MD" name="Moldova" continent="Europe" id="cid-cia-Moldova"/>
+		<Ocean name="Irish Sea" id="Irish Sea" _text="Irish Sea"/>
+		<Country capital="Douglas" government="British crown dependency" gdp_total="780" inflation="7" infant_mortality="2.4" population_growth="0.94" population="73837" total_area="588" datacode="IM" name="Man" continent="Europe" id="cid-cia-Man"/>
+		<Ocean name="Sicily (Italy)" id="Sicily (Italy)" _text="Sicily (Italy)"/>
+		<Country capital="Valletta" government="parliamentary democracy" indep_date="21 09 1964" gdp_total="4400" inflation="5" infant_mortality="6.9" population_growth="1.01" population="375576" total_area="320" datacode="MT" name="Malta" continent="Europe" id="cid-cia-Malta"/>
+		<SpokenLanguage id="Turkish" _text="1" name="Turkish"/>
+		<SpokenLanguage id="Macedonian" _text="70" name="Macedonian"/>
+		<SpokenLanguage id="Albanian" _text="5" name="Albanian"/>
+		<Country capital="Skopje" government="emerging democracy" indep_date="17 09 1991" gdp_total="1900" gdp_serv="32" gdp_ind="44" inflation="14.8" gdp_agri="24" infant_mortality="29.7" population_growth="0.46" population="2104035" total_area="25333" datacode="MK" name="Macedonia" continent="Europe" id="cid-cia-Macedonia"/>
+		<Country capital="Luxembourg" government="constitutional monarchy" gdp_total="10000" gdp_serv="64.9" gdp_ind="33.7" inflation="3.6" gdp_agri="1.4" infant_mortality="4.7" population_growth="1.57" population="415870" total_area="2586" datacode="LU" name="Luxembourg" continent="Europe" id="cid-cia-Luxembourg"/>
+		<Country capital="Vilnius" government="republic" indep_date="06 09 1991" gdp_total="13300" gdp_serv="38" gdp_ind="42" inflation="35" gdp_agri="20" infant_mortality="17" population_growth="-0.35" population="3646041" total_area="65200" datacode="LH" name="Lithuania" continent="Europe" id="cid-cia-Lithuania"/>
+		<Country capital="Vaduz" government="hereditary constitutional monarchy" indep_date="23 01 1719" gdp_total="630" inflation="5.4" infant_mortality="5.3" population_growth="1.08" population="31122" total_area="160" datacode="LS" name="Liechtenstein" continent="Europe" id="cid-cia-Liechtenstein"/>
+		<Country capital="Riga" government="republic" indep_date="06 09 1991" gdp_total="14700" gdp_serv="60" gdp_ind="31" inflation="20" gdp_agri="9" infant_mortality="21.2" population_growth="-1.39" population="2468982" total_area="64100" datacode="LG" name="Latvia" continent="Europe" id="cid-cia-Latvia"/>
+		<Country capital="Saint Helier" government="British crown dependency" infant_mortality="2.7" population_growth="0.77" population="87848" total_area="117" datacode="JE" name="Jersey" continent="Europe" id="cid-cia-Jersey"/>
+		<Country government="territory of Norway" total_area="373" datacode="JN" name="Jan Mayen" continent="Europe" id="cid-cia-Jan-Mayen"/>
+		<Country capital="Rome" government="republic" indep_date="17 03 1861" gdp_total="1088600" gdp_serv="65.5" gdp_ind="31.6" inflation="5.4" gdp_agri="2.9" infant_mortality="6.9" population_growth="0.13" population="57460274" total_area="301230" datacode="IT" name="Italy" continent="Europe" id="cid-cia-Italy"/>
+		<Ocean name="Great Britain" id="Great Britain" _text="Great Britain"/>
+		<Country capital="Dublin" government="republic" indep_date="06 12 1921" gdp_total="54600" gdp_serv="57.9" gdp_ind="35.3" inflation="2.8" gdp_agri="6.8" infant_mortality="6.4" population_growth="-0.22" population="3566833" total_area="70280" datacode="EI" name="Ireland" continent="Europe" id="cid-cia-Ireland"/>
+		<Ocean name="Greenland Sea" id="Greenland Sea" _text="Greenland Sea"/>
+		<Ocean name="UK" id="UK" _text="UK"/>
+		<SpokenLanguage id="Icelandic" _text="100" name="Icelandic"/>
+		<Country capital="Reykjavik" government="republic" indep_date="17 06 1944" gdp_total="5000" gdp_serv="68.3" gdp_ind="22.1" inflation="2.5" gdp_agri="9.6" infant_mortality="4.3" population_growth="0.83" population="270292" total_area="103000" datacode="IC" name="Iceland" continent="Europe" id="cid-cia-Iceland"/>
+		<SpokenLanguage id="Hungarian" _text="98.2" name="Hungarian"/>
+		<Country capital="Budapest" government="republic" indep_date="01 01 1001" gdp_total="72500" gdp_serv="55.2" gdp_ind="37.5" inflation="28.3" gdp_agri="7.3" infant_mortality="12.3" population_growth="-0.68" population="10002541" total_area="93030" datacode="HU" name="Hungary" continent="Europe" id="cid-cia-Hungary"/>
+		<Ocean name="Rome (Italy)" id="Rome (Italy)" _text="Rome (Italy)"/>
+		<Country capital="Vatican City" government="monarchical sacerdotal state" indep_date="11 02 1929" population_growth="1.15" population="840" total_area="0.44" datacode="VT" name="Holy See" continent="Europe" id="cid-cia-Holy-See"/>
+		<Country capital="Saint Peter Port" government="British crown dependency" inflation="7" infant_mortality="9.2" population_growth="1.28" population="62920" total_area="194" datacode="GK" name="Guernsey" continent="Europe" id="cid-cia-Guernsey"/>
+		<Ocean name="Aegean Sea" id="Aegean Sea" _text="Aegean Sea"/>
+		<Country capital="Athens" government="parliamentary republic" indep_date="01 01 1829" gdp_total="101700" gdp_serv="66" gdp_ind="22.2" inflation="8.1" gdp_agri="11.8" infant_mortality="7.4" population_growth="0.42" population="10538594" total_area="131940" datacode="GR" name="Greece" continent="Europe" id="cid-cia-Greece"/>
+		<Ocean name="North Atlantic Ocean" id="North Atlantic Ocean" _text="North Atlantic Ocean"/>
+		<Ocean name="Strait Of Gibraltar" id="Strait Of Gibraltar" _text="Strait Of Gibraltar"/>
+		<Country capital="Gibraltar" government="dependent territory of the UK" gdp_total="205" infant_mortality="6.9" population_growth="0.54" population="28765" total_area="6.5" datacode="GI" name="Gibraltar" continent="Europe" id="cid-cia-Gibraltar"/>
+		<Country capital="Berlin" government="federal republic" indep_date="18 01 1871" gdp_total="1452200" gdp_serv="64.8" gdp_ind="34.2" gdp_agri="1" infant_mortality="6" population_growth="0.67" population="83536115" total_area="356910" datacode="GM" name="Germany" continent="Europe" id="cid-cia-Germany"/>
+		<Ocean name="Mediterranean Sea" id="Mediterranean Sea" _text="Mediterranean Sea"/>
+		<Ocean name="English Channel" id="English Channel" _text="English Channel"/>
+		<Ocean name="Bay Of Biscay" id="Bay Of Biscay" _text="Bay Of Biscay"/>
+		<Country capital="Paris" government="republic" gdp_total="1173000" gdp_serv="71.1" gdp_ind="26.5" inflation="1.7" gdp_agri="2.4" infant_mortality="5.3" population_growth="0.34" population="58317450" total_area="547030" datacode="FR" name="France" continent="Europe" id="cid-cia-France"/>
+		<Ocean name="Gulf Of Bothnia" id="Gulf Of Bothnia" _text="Gulf Of Bothnia"/>
+		<SpokenLanguage id="Finnish" _text="93.5" name="Finnish"/>
+		<SpokenLanguage id="Swedish" _text="100" name="Swedish"/>
+		<Country capital="Helsinki" government="republic" indep_date="06 12 1917" gdp_total="92400" gdp_serv="67.4" gdp_ind="28" inflation="2" gdp_agri="4.6" infant_mortality="4.9" population_growth="0.1" population="5105230" total_area="337030" datacode="FI" name="Finland" continent="Europe" id="cid-cia-Finland"/>
+		<Ocean name="Atlantic Ocean" id="Atlantic Ocean" _text="Atlantic Ocean"/>
+		<Ocean name="Norwegian Sea" id="Norwegian Sea" _text="Norwegian Sea"/>
+		<Country capital="Torshavn" government="part of the Danish realm" gdp_total="733" inflation="6.8" infant_mortality="7.2" population_growth="-1.8" population="43857" total_area="1400" datacode="FO" name="Faroe Islands" continent="Europe" id="cid-cia-Faroe-Islands"/>
+		<Ocean name="Gulf Of Finland" id="Gulf Of Finland" _text="Gulf Of Finland"/>
+		<Country capital="Tallinn" government="republic" indep_date="06 09 1991" gdp_total="12300" gdp_serv="53" gdp_ind="37" inflation="29" gdp_agri="10" infant_mortality="17.4" population_growth="-1.13" population="1459428" total_area="45100" datacode="EN" name="Estonia" continent="Europe" id="cid-cia-Estonia"/>
+		<Ocean name="Baltic Sea" id="Baltic Sea" _text="Baltic Sea"/>
+		<Country capital="Copenhagen" government="constitutional monarchy" gdp_total="112800" gdp_serv="73.5" gdp_ind="23.5" inflation="2.4" gdp_agri="3" infant_mortality="4.8" population_growth="0.38" population="5249632" total_area="43070" datacode="DA" name="Denmark" continent="Europe" id="cid-cia-Denmark"/>
+		<Country capital="Prague" government="parliamentary democracy" indep_date="01 01 1993" gdp_total="106200" gdp_serv="53.5" gdp_ind="40.7" inflation="9.1" gdp_agri="5.8" infant_mortality="8.4" population_growth="-0.03" population="10321120" total_area="78703" datacode="EZ" name="Czech Republic" continent="Europe" id="cid-cia-Czech-Republic"/>
+		<Ocean name="Herzegovina" id="Herzegovina" _text="Herzegovina"/>
+		<Ocean name="Bosnia" id="Bosnia" _text="Bosnia"/>
+		<Country capital="Zagreb" government="parliamentary democracy" indep_date="25 06 1991" gdp_total="20100" gdp_serv="56.7" gdp_ind="30.6" inflation="3.7" gdp_agri="12.7" infant_mortality="10.2" population_growth="0.58" population="5004112" total_area="56538" datacode="HR" name="Croatia" continent="Europe" id="cid-cia-Croatia"/>
+		<Ocean name="Black Sea" id="Black Sea" _text="Black Sea"/>
+		<SpokenLanguage id="Bulgarian" _text="100" name="Bulgarian"/>
+		<Country capital="Sofia" government="emerging democracy" indep_date="22 09 1908" gdp_total="43200" gdp_serv="52" gdp_ind="36" inflation="35" gdp_agri="12" infant_mortality="15.7" population_growth="0.46" population="8612757" total_area="110910" datacode="BU" name="Bulgaria" continent="Europe" id="cid-cia-Bulgaria"/>
+		<SpokenLanguage id="Serbo-Croatian" _text="7" name="Serbo-Croatian"/>
+		<Country capital="Sarajevo" government="emerging democracy" indep_date="01 04 1992" gdp_total="1000" infant_mortality="43.2" population_growth="-2.84" population="2656240" total_area="51233" datacode="BK" name="Bosnia and Herzegovina" continent="Europe" id="cid-cia-Bosnia-and-Herzegovina"/>
+		<Ocean name="North Sea" id="North Sea" _text="North Sea"/>
+		<SpokenLanguage id="Dutch" _text="100" name="Dutch"/>
+		<SpokenLanguage id="French" _text="100" name="French"/>
+		<Country capital="Brussels" government="constitutional monarchy" indep_date="04 10 1830" gdp_total="197000" gdp_serv="70" gdp_ind="28" inflation="1.6" gdp_agri="2" infant_mortality="6.4" population_growth="0.33" population="10170241" total_area="30510" datacode="BE" name="Belgium" continent="Europe" id="cid-cia-Belgium"/>
+		<Country capital="Minsk" government="republic" indep_date="25 08 1991" gdp_total="49200" gdp_serv="30" gdp_ind="49" inflation="244" gdp_agri="21" infant_mortality="13.4" population_growth="0.2" population="10415973" total_area="207600" datacode="BO" name="Belarus" continent="Europe" id="cid-cia-Belarus"/>
+		<SpokenLanguage id="German" _text="32" name="German"/>
+		<Country capital="Vienna" government="federal republic" indep_date="12 11 1918" gdp_total="152000" gdp_serv="64" gdp_ind="34" inflation="2.3" gdp_agri="2" infant_mortality="6.2" population_growth="0.41" population="8023244" total_area="83850" datacode="AU" name="Austria" continent="Europe" id="cid-cia-Austria"/>
+		<Country capital="Andorra la Vella" government="parliamentary democracy that retains as its heads of state a coprincipality" gdp_total="1000" infant_mortality="2.2" population_growth="2.96" population="72766" total_area="450" datacode="AN" name="Andorra" continent="Europe" id="cid-cia-Andorra"/>
+		<Ocean name="Montenegro" id="Montenegro" _text="Montenegro"/>
+		<Ocean name="Serbia" id="Serbia" _text="Serbia"/>
+		<Ocean name="Ionian Sea" id="Ionian Sea" _text="Ionian Sea"/>
+		<Ocean name="Adriatic Sea" id="Adriatic Sea" _text="Adriatic Sea"/>
+		<Country capital="Tirane" government="emerging democracy" indep_date="28 11 1912" gdp_total="4100" inflation="16" gdp_agri="55" infant_mortality="49.2" population_growth="1.34" population="3249136" total_area="28750" datacode="AL" name="Albania" continent="Europe" id="cid-cia-Albania"/>
+		<Continent name="Africa" id="africa"/>
+		<Continent name="South America" id="southAmerica"/>
+		<Continent name="Australia/Oceania" id="australia"/>
+		<Continent name="North America" id="northAmerica"/>
+		<Continent name="Asia" id="asia"/>
+		<Continent name="Europe" id="europe"/>
+	</Nodes>
+	<Relations>
+		<hasBorderTo fromID="cid-cia-Albania" toID="Montenegro"/>
+		<hasBorderTo fromID="cid-cia-Albania" toID="Serbia"/>
+		<hasBorderTo fromID="cid-cia-Albania" toID="Ionian Sea"/>
+		<hasBorderTo fromID="cid-cia-Albania" toID="Adriatic Sea"/>
+		<hasBorderTo fromID="cid-cia-Albania" toID="cid-cia-Serbia-and-Montenegro"/>
+		<hasBorderTo fromID="cid-cia-Albania" toID="cid-cia-Macedonia"/>
+		<hasBorderTo fromID="cid-cia-Albania" toID="cid-cia-Greece"/>
+		<isPartOf fromID="cid-cia-Albania" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Andorra" toID="cid-cia-Spain"/>
+		<hasBorderTo fromID="cid-cia-Andorra" toID="cid-cia-France"/>
+		<isPartOf fromID="cid-cia-Andorra" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Austria" toID="cid-cia-Switzerland"/>
+		<hasBorderTo fromID="cid-cia-Austria" toID="cid-cia-Slovenia"/>
+		<hasBorderTo fromID="cid-cia-Austria" toID="cid-cia-Slovakia"/>
+		<hasBorderTo fromID="cid-cia-Austria" toID="cid-cia-Liechtenstein"/>
+		<hasBorderTo fromID="cid-cia-Austria" toID="cid-cia-Italy"/>
+		<hasBorderTo fromID="cid-cia-Austria" toID="cid-cia-Hungary"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Country_3005" fromID="cid-cia-Austria" toID="cid-cia-Germany"/>
+		<hasBorderTo fromID="cid-cia-Austria" toID="cid-cia-Czech-Republic"/>
+		<isSpokenIn toID="cid-cia-Austria" fromID="German"/>
+		<isPartOf fromID="cid-cia-Austria" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Belarus" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-Belarus" toID="cid-cia-Ukraine"/>
+		<hasBorderTo fromID="cid-cia-Belarus" toID="cid-cia-Poland"/>
+		<hasBorderTo fromID="cid-cia-Belarus" toID="cid-cia-Lithuania"/>
+		<hasBorderTo fromID="cid-cia-Belarus" toID="cid-cia-Latvia"/>
+		<isPartOf fromID="cid-cia-Belarus" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Belgium" toID="North Sea"/>
+		<hasBorderTo fromID="cid-cia-Belgium" toID="cid-cia-Netherlands"/>
+		<hasBorderTo fromID="cid-cia-Belgium" toID="cid-cia-Luxembourg"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Country_3005" fromID="cid-cia-Belgium" toID="cid-cia-Germany"/>
+		<hasBorderTo fromID="cid-cia-Belgium" toID="cid-cia-France"/>
+		<isSpokenIn toID="cid-cia-Belgium" fromID="Dutch"/>
+		<isSpokenIn toID="cid-cia-Belgium" fromID="German"/>
+		<isSpokenIn toID="cid-cia-Belgium" fromID="French"/>
+		<isPartOf fromID="cid-cia-Belgium" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Bosnia-and-Herzegovina" toID="Adriatic Sea"/>
+		<hasBorderTo fromID="cid-cia-Bosnia-and-Herzegovina" toID="cid-cia-Serbia-and-Montenegro"/>
+		<hasBorderTo fromID="cid-cia-Bosnia-and-Herzegovina" toID="cid-cia-Croatia"/>
+		<isSpokenIn toID="cid-cia-Bosnia-and-Herzegovina" fromID="Serbo-Croatian"/>
+		<isPartOf fromID="cid-cia-Bosnia-and-Herzegovina" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Bulgaria" toID="Black Sea"/>
+		<hasBorderTo fromID="cid-cia-Bulgaria" toID="cid-cia-Turkey"/>
+		<hasBorderTo fromID="cid-cia-Bulgaria" toID="cid-cia-Serbia-and-Montenegro"/>
+		<hasBorderTo fromID="cid-cia-Bulgaria" toID="cid-cia-Romania"/>
+		<hasBorderTo fromID="cid-cia-Bulgaria" toID="cid-cia-Macedonia"/>
+		<hasBorderTo fromID="cid-cia-Bulgaria" toID="cid-cia-Greece"/>
+		<isSpokenIn toID="cid-cia-Bulgaria" fromID="Bulgarian"/>
+		<isPartOf fromID="cid-cia-Bulgaria" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Croatia" toID="Herzegovina"/>
+		<hasBorderTo fromID="cid-cia-Croatia" toID="Bosnia"/>
+		<hasBorderTo fromID="cid-cia-Croatia" toID="Adriatic Sea"/>
+		<hasBorderTo fromID="cid-cia-Croatia" toID="cid-cia-Slovenia"/>
+		<hasBorderTo fromID="cid-cia-Croatia" toID="cid-cia-Serbia-and-Montenegro"/>
+		<hasBorderTo fromID="cid-cia-Croatia" toID="cid-cia-Hungary"/>
+		<isSpokenIn toID="cid-cia-Croatia" fromID="Serbo-Croatian"/>
+		<isPartOf fromID="cid-cia-Croatia" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Czech-Republic" toID="cid-cia-Slovakia"/>
+		<hasBorderTo fromID="cid-cia-Czech-Republic" toID="cid-cia-Poland"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Country_3005" fromID="cid-cia-Czech-Republic" toID="cid-cia-Germany"/>
+		<isPartOf fromID="cid-cia-Czech-Republic" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Denmark" toID="Baltic Sea"/>
+		<hasBorderTo fromID="cid-cia-Denmark" toID="North Sea"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Country_3005" fromID="cid-cia-Denmark" toID="cid-cia-Germany"/>
+		<isPartOf fromID="cid-cia-Denmark" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Estonia" toID="Gulf Of Finland"/>
+		<hasBorderTo fromID="cid-cia-Estonia" toID="Baltic Sea"/>
+		<hasBorderTo fromID="cid-cia-Estonia" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-Estonia" toID="cid-cia-Latvia"/>
+		<isPartOf fromID="cid-cia-Estonia" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Faroe-Islands" toID="Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Faroe-Islands" toID="Norwegian Sea"/>
+		<isPartOf fromID="cid-cia-Faroe-Islands" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Finland" toID="Gulf Of Bothnia"/>
+		<hasBorderTo fromID="cid-cia-Finland" toID="Gulf Of Finland"/>
+		<hasBorderTo fromID="cid-cia-Finland" toID="Baltic Sea"/>
+		<hasBorderTo fromID="cid-cia-Finland" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-Finland" toID="cid-cia-Sweden"/>
+		<hasBorderTo fromID="cid-cia-Finland" toID="cid-cia-Norway"/>
+		<isSpokenIn toID="cid-cia-Finland" fromID="Finnish"/>
+		<isSpokenIn toID="cid-cia-Finland" fromID="Swedish"/>
+		<isPartOf fromID="cid-cia-Finland" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-France" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-France" toID="English Channel"/>
+		<hasBorderTo fromID="cid-cia-France" toID="Bay Of Biscay"/>
+		<hasBorderTo fromID="cid-cia-France" toID="cid-cia-Switzerland"/>
+		<hasBorderTo fromID="cid-cia-France" toID="cid-cia-Spain"/>
+		<hasBorderTo fromID="cid-cia-France" toID="cid-cia-Monaco"/>
+		<hasBorderTo fromID="cid-cia-France" toID="cid-cia-Luxembourg"/>
+		<hasBorderTo fromID="cid-cia-France" toID="cid-cia-Italy"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Country_3005" fromID="cid-cia-France" toID="cid-cia-Germany"/>
+		<isSpokenIn toID="cid-cia-France" fromID="French"/>
+		<isPartOf fromID="cid-cia-France" toID="europe"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Ocean_3003" fromID="cid-cia-Germany" toID="Baltic Sea"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Ocean_3004" fromID="cid-cia-Germany" toID="North Sea"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Country_3011" fromID="cid-cia-Germany" toID="cid-cia-Switzerland"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Country_3012" fromID="cid-cia-Germany" toID="cid-cia-Poland"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Country_3013" fromID="cid-cia-Germany" toID="cid-cia-Netherlands"/>
+		<hasBorderTo toMC="_level0.GraphViewMC.Country_3014" fromID="cid-cia-Germany" toID="cid-cia-Luxembourg"/>
+		<isSpokenIn toMC="_level0.GraphViewMC.Country_3005" toID="cid-cia-Germany" fromID="German"/>
+		<isPartOf toMC="_level0.GraphViewMC.Continent_3001" fromID="cid-cia-Germany" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Gibraltar" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Gibraltar" toID="Strait Of Gibraltar"/>
+		<hasBorderTo fromID="cid-cia-Gibraltar" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Gibraltar" toID="cid-cia-Spain"/>
+		<isPartOf fromID="cid-cia-Gibraltar" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Greece" toID="Aegean Sea"/>
+		<hasBorderTo fromID="cid-cia-Greece" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Greece" toID="Ionian Sea"/>
+		<hasBorderTo fromID="cid-cia-Greece" toID="cid-cia-Turkey"/>
+		<hasBorderTo fromID="cid-cia-Greece" toID="cid-cia-Macedonia"/>
+		<isPartOf fromID="cid-cia-Greece" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Guernsey" toID="English Channel"/>
+		<isPartOf fromID="cid-cia-Guernsey" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Holy-See" toID="Rome (Italy)"/>
+		<hasBorderTo fromID="cid-cia-Holy-See" toID="cid-cia-Italy"/>
+		<isPartOf fromID="cid-cia-Holy-See" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Hungary" toID="cid-cia-Ukraine"/>
+		<hasBorderTo fromID="cid-cia-Hungary" toID="cid-cia-Slovenia"/>
+		<hasBorderTo fromID="cid-cia-Hungary" toID="cid-cia-Slovakia"/>
+		<hasBorderTo fromID="cid-cia-Hungary" toID="cid-cia-Serbia-and-Montenegro"/>
+		<hasBorderTo fromID="cid-cia-Hungary" toID="cid-cia-Romania"/>
+		<isSpokenIn toID="cid-cia-Hungary" fromID="Hungarian"/>
+		<isPartOf fromID="cid-cia-Hungary" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Iceland" toID="Greenland Sea"/>
+		<hasBorderTo fromID="cid-cia-Iceland" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Iceland" toID="UK"/>
+		<isSpokenIn toID="cid-cia-Iceland" fromID="Icelandic"/>
+		<isPartOf fromID="cid-cia-Iceland" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Ireland" toID="Great Britain"/>
+		<hasBorderTo fromID="cid-cia-Ireland" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Ireland" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Italy" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Italy" toID="cid-cia-Switzerland"/>
+		<hasBorderTo fromID="cid-cia-Italy" toID="cid-cia-Slovenia"/>
+		<hasBorderTo fromID="cid-cia-Italy" toID="cid-cia-San-Marino"/>
+		<isPartOf fromID="cid-cia-Italy" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Jan-Mayen" toID="Greenland Sea"/>
+		<hasBorderTo fromID="cid-cia-Jan-Mayen" toID="Norwegian Sea"/>
+		<isPartOf fromID="cid-cia-Jan-Mayen" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Jersey" toID="English Channel"/>
+		<isPartOf fromID="cid-cia-Jersey" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Latvia" toID="Baltic Sea"/>
+		<hasBorderTo fromID="cid-cia-Latvia" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-Latvia" toID="cid-cia-Lithuania"/>
+		<isPartOf fromID="cid-cia-Latvia" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Liechtenstein" toID="cid-cia-Switzerland"/>
+		<isPartOf fromID="cid-cia-Liechtenstein" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Lithuania" toID="Baltic Sea"/>
+		<hasBorderTo fromID="cid-cia-Lithuania" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-Lithuania" toID="cid-cia-Poland"/>
+		<isPartOf fromID="cid-cia-Lithuania" toID="europe"/>
+		<isPartOf fromID="cid-cia-Luxembourg" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Macedonia" toID="cid-cia-Serbia-and-Montenegro"/>
+		<isSpokenIn toID="cid-cia-Macedonia" fromID="Serbo-Croatian"/>
+		<isSpokenIn toID="cid-cia-Macedonia" fromID="Turkish"/>
+		<isSpokenIn toID="cid-cia-Macedonia" fromID="Macedonian"/>
+		<isSpokenIn toID="cid-cia-Macedonia" fromID="Albanian"/>
+		<isPartOf fromID="cid-cia-Macedonia" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Malta" toID="Sicily (Italy)"/>
+		<hasBorderTo fromID="cid-cia-Malta" toID="Mediterranean Sea"/>
+		<isPartOf fromID="cid-cia-Malta" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Man" toID="Irish Sea"/>
+		<hasBorderTo fromID="cid-cia-Man" toID="Great Britain"/>
+		<isPartOf fromID="cid-cia-Man" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Moldova" toID="cid-cia-Ukraine"/>
+		<hasBorderTo fromID="cid-cia-Moldova" toID="cid-cia-Romania"/>
+		<isPartOf fromID="cid-cia-Moldova" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Monaco" toID="Mediterranean Sea"/>
+		<isPartOf fromID="cid-cia-Monaco" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Netherlands" toID="North Sea"/>
+		<isSpokenIn toID="cid-cia-Netherlands" fromID="Dutch"/>
+		<isPartOf fromID="cid-cia-Netherlands" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Norway" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Norway" toID="North Sea"/>
+		<hasBorderTo fromID="cid-cia-Norway" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-Norway" toID="cid-cia-Sweden"/>
+		<isSpokenIn toID="cid-cia-Norway" fromID="Norwegian"/>
+		<isPartOf fromID="cid-cia-Norway" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Poland" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-Poland" toID="cid-cia-Ukraine"/>
+		<hasBorderTo fromID="cid-cia-Poland" toID="cid-cia-Slovakia"/>
+		<isSpokenIn toID="cid-cia-Poland" fromID="Polish"/>
+		<isPartOf fromID="cid-cia-Poland" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Portugal" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Portugal" toID="cid-cia-Spain"/>
+		<isSpokenIn toID="cid-cia-Portugal" fromID="Portuguese"/>
+		<isPartOf fromID="cid-cia-Portugal" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Romania" toID="Black Sea"/>
+		<hasBorderTo fromID="cid-cia-Romania" toID="cid-cia-Ukraine"/>
+		<hasBorderTo fromID="cid-cia-Romania" toID="cid-cia-Serbia-and-Montenegro"/>
+		<isPartOf fromID="cid-cia-Romania" toID="europe"/>
+		<isSpokenIn toID="cid-cia-San-Marino" fromID="Italian"/>
+		<isPartOf fromID="cid-cia-San-Marino" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Serbia-and-Montenegro" toID="Herzegovina"/>
+		<hasBorderTo fromID="cid-cia-Serbia-and-Montenegro" toID="Bosnia"/>
+		<hasBorderTo fromID="cid-cia-Serbia-and-Montenegro" toID="Adriatic Sea"/>
+		<isSpokenIn toID="cid-cia-Serbia-and-Montenegro" fromID="Serbo-Croatian"/>
+		<isSpokenIn toID="cid-cia-Serbia-and-Montenegro" fromID="Albanian"/>
+		<isPartOf fromID="cid-cia-Serbia-and-Montenegro" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Slovakia" toID="cid-cia-Ukraine"/>
+		<isPartOf fromID="cid-cia-Slovakia" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Slovenia" toID="Adriatic Sea"/>
+		<isSpokenIn toID="cid-cia-Slovenia" fromID="Serbo-Croatian"/>
+		<isSpokenIn toID="cid-cia-Slovenia" fromID="Slovenian"/>
+		<isPartOf fromID="cid-cia-Slovenia" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Spain" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Spain" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Spain" toID="Bay Of Biscay"/>
+		<isSpokenIn toID="cid-cia-Spain" fromID="Basque"/>
+		<isSpokenIn toID="cid-cia-Spain" fromID="Galician"/>
+		<isSpokenIn toID="cid-cia-Spain" fromID="Catalan"/>
+		<isPartOf fromID="cid-cia-Spain" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Svalbard" toID="Barents Sea"/>
+		<hasBorderTo fromID="cid-cia-Svalbard" toID="Arctic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Svalbard" toID="Greenland Sea"/>
+		<hasBorderTo fromID="cid-cia-Svalbard" toID="Norwegian Sea"/>
+		<isPartOf fromID="cid-cia-Svalbard" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Sweden" toID="Skagerrak"/>
+		<hasBorderTo fromID="cid-cia-Sweden" toID="Gulf Of Bothnia"/>
+		<hasBorderTo fromID="cid-cia-Sweden" toID="Baltic Sea"/>
+		<isSpokenIn toID="cid-cia-Sweden" fromID="Swedish"/>
+		<isPartOf fromID="cid-cia-Sweden" toID="europe"/>
+		<isSpokenIn toID="cid-cia-Switzerland" fromID="Romansch"/>
+		<isSpokenIn toID="cid-cia-Switzerland" fromID="Italian"/>
+		<isSpokenIn toID="cid-cia-Switzerland" fromID="German"/>
+		<isSpokenIn toID="cid-cia-Switzerland" fromID="French"/>
+		<isPartOf fromID="cid-cia-Switzerland" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Ukraine" toID="Black Sea"/>
+		<isPartOf fromID="cid-cia-Ukraine" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-United-Kingdom" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-United-Kingdom" toID="North Sea"/>
+		<isPartOf fromID="cid-cia-United-Kingdom" toID="europe"/>
+		<hasBorderTo fromID="cid-cia-Afghanistan" toID="cid-cia-Uzbekistan"/>
+		<hasBorderTo fromID="cid-cia-Afghanistan" toID="cid-cia-Turkmenistan"/>
+		<hasBorderTo fromID="cid-cia-Afghanistan" toID="cid-cia-Tajikistan"/>
+		<hasBorderTo fromID="cid-cia-Afghanistan" toID="cid-cia-Pakistan"/>
+		<hasBorderTo fromID="cid-cia-Afghanistan" toID="cid-cia-Iran"/>
+		<hasBorderTo fromID="cid-cia-Afghanistan" toID="cid-cia-China"/>
+		<isSpokenIn toID="cid-cia-Afghanistan" fromID="Afghan Persian"/>
+		<isSpokenIn toID="cid-cia-Afghanistan" fromID="Pashtu"/>
+		<isSpokenIn toID="cid-cia-Afghanistan" fromID="Turkic"/>
+		<isPartOf fromID="cid-cia-Afghanistan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Armenia" toID="cid-cia-Turkey"/>
+		<hasBorderTo fromID="cid-cia-Armenia" toID="cid-cia-Iran"/>
+		<hasBorderTo fromID="cid-cia-Armenia" toID="cid-cia-Georgia"/>
+		<isSpokenIn toID="cid-cia-Armenia" fromID="Armenian"/>
+		<isSpokenIn toID="cid-cia-Armenia" fromID="Russian"/>
+		<isPartOf fromID="cid-cia-Armenia" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Ashmore-and-Cartier-Islands" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-Ashmore-and-Cartier-Islands" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Azerbaijan" toID="Caspian Sea"/>
+		<hasBorderTo fromID="cid-cia-Azerbaijan" toID="cid-cia-Turkey"/>
+		<hasBorderTo fromID="cid-cia-Azerbaijan" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-Azerbaijan" toID="cid-cia-Iran"/>
+		<hasBorderTo fromID="cid-cia-Azerbaijan" toID="cid-cia-Georgia"/>
+		<isSpokenIn toID="cid-cia-Azerbaijan" fromID="Azeri"/>
+		<isSpokenIn toID="cid-cia-Azerbaijan" fromID="Armenian"/>
+		<isSpokenIn toID="cid-cia-Azerbaijan" fromID="Russian"/>
+		<isPartOf fromID="cid-cia-Azerbaijan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Bahrain" toID="Persian Gulf"/>
+		<isPartOf fromID="cid-cia-Bahrain" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Bangladesh" toID="Bay Of Bengal"/>
+		<hasBorderTo fromID="cid-cia-Bangladesh" toID="cid-cia-India"/>
+		<hasBorderTo fromID="cid-cia-Bangladesh" toID="cid-cia-Burma"/>
+		<isPartOf fromID="cid-cia-Bangladesh" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Bhutan" toID="cid-cia-India"/>
+		<hasBorderTo fromID="cid-cia-Bhutan" toID="cid-cia-China"/>
+		<isPartOf fromID="cid-cia-Bhutan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-British-Indian-Ocean-Territory" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-British-Indian-Ocean-Territory" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Brunei" toID="South China Sea"/>
+		<hasBorderTo fromID="cid-cia-Brunei" toID="cid-cia-Malaysia"/>
+		<isPartOf fromID="cid-cia-Brunei" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Burma" toID="Andaman Sea"/>
+		<hasBorderTo fromID="cid-cia-Burma" toID="Bay Of Bengal"/>
+		<hasBorderTo fromID="cid-cia-Burma" toID="cid-cia-Thailand"/>
+		<hasBorderTo fromID="cid-cia-Burma" toID="cid-cia-Laos"/>
+		<hasBorderTo fromID="cid-cia-Burma" toID="cid-cia-India"/>
+		<hasBorderTo fromID="cid-cia-Burma" toID="cid-cia-China"/>
+		<isSpokenIn toID="cid-cia-Burma" fromID="Burmese"/>
+		<isPartOf fromID="cid-cia-Burma" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Cambodia" toID="Gulf Of Thailand"/>
+		<hasBorderTo fromID="cid-cia-Cambodia" toID="cid-cia-Vietnam"/>
+		<hasBorderTo fromID="cid-cia-Cambodia" toID="cid-cia-Thailand"/>
+		<hasBorderTo fromID="cid-cia-Cambodia" toID="cid-cia-Laos"/>
+		<isPartOf fromID="cid-cia-Cambodia" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-China" toID="Yellow Sea"/>
+		<hasBorderTo fromID="cid-cia-China" toID="Korea Bay"/>
+		<hasBorderTo fromID="cid-cia-China" toID="East China Sea"/>
+		<hasBorderTo fromID="cid-cia-China" toID="South China Sea"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Vietnam"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Tajikistan"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Pakistan"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Nepal"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Mongolia"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Macau"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Laos"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Kyrgyzstan"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-North-Korea"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Kazakstan"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-India"/>
+		<hasBorderTo fromID="cid-cia-China" toID="cid-cia-Hong-Kong"/>
+		<isPartOf fromID="cid-cia-China" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Christmas-Island" toID="Indian Ocean"/>
+		<isSpokenIn toID="cid-cia-Christmas-Island" fromID="English"/>
+		<isPartOf fromID="cid-cia-Christmas-Island" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Cocos-Islands" toID="Indian Ocean"/>
+		<isSpokenIn toID="cid-cia-Cocos-Islands" fromID="English"/>
+		<isPartOf fromID="cid-cia-Cocos-Islands" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Cyprus" toID="Mediterranean Sea"/>
+		<isPartOf fromID="cid-cia-Cyprus" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Gaza-Strip" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Gaza-Strip" toID="cid-cia-Israel"/>
+		<isPartOf fromID="cid-cia-Gaza-Strip" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Georgia" toID="Black Sea"/>
+		<hasBorderTo fromID="cid-cia-Georgia" toID="cid-cia-Turkey"/>
+		<hasBorderTo fromID="cid-cia-Georgia" toID="cid-cia-Russia"/>
+		<isSpokenIn toID="cid-cia-Georgia" fromID="Georgian"/>
+		<isSpokenIn toID="cid-cia-Georgia" fromID="Azeri"/>
+		<isSpokenIn toID="cid-cia-Georgia" fromID="Armenian"/>
+		<isSpokenIn toID="cid-cia-Georgia" fromID="Russian"/>
+		<isPartOf fromID="cid-cia-Georgia" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Hong-Kong" toID="South China Sea"/>
+		<isPartOf fromID="cid-cia-Hong-Kong" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-India" toID="Arabian Sea"/>
+		<hasBorderTo fromID="cid-cia-India" toID="Bay Of Bengal"/>
+		<hasBorderTo fromID="cid-cia-India" toID="cid-cia-Pakistan"/>
+		<hasBorderTo fromID="cid-cia-India" toID="cid-cia-Nepal"/>
+		<isSpokenIn toID="cid-cia-India" fromID="Hindi"/>
+		<isPartOf fromID="cid-cia-India" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Indonesia" toID="Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Indonesia" toID="Indian Ocean"/>
+		<hasBorderTo fromID="cid-cia-Indonesia" toID="cid-cia-Papua-New-Guinea"/>
+		<hasBorderTo fromID="cid-cia-Indonesia" toID="cid-cia-Malaysia"/>
+		<isPartOf fromID="cid-cia-Indonesia" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Iran" toID="Gulf Of Oman"/>
+		<hasBorderTo fromID="cid-cia-Iran" toID="Persian Gulf"/>
+		<hasBorderTo fromID="cid-cia-Iran" toID="Caspian Sea"/>
+		<hasBorderTo fromID="cid-cia-Iran" toID="cid-cia-Turkmenistan"/>
+		<hasBorderTo fromID="cid-cia-Iran" toID="cid-cia-Turkey"/>
+		<hasBorderTo fromID="cid-cia-Iran" toID="cid-cia-Pakistan"/>
+		<hasBorderTo fromID="cid-cia-Iran" toID="cid-cia-Iraq"/>
+		<isSpokenIn toID="cid-cia-Iran" fromID="Turkic Turkic"/>
+		<isSpokenIn toID="cid-cia-Iran" fromID="Persian Persian"/>
+		<isSpokenIn toID="cid-cia-Iran" fromID="Luri"/>
+		<isSpokenIn toID="cid-cia-Iran" fromID="Arabic"/>
+		<isSpokenIn toID="cid-cia-Iran" fromID="Kurdish"/>
+		<isSpokenIn toID="cid-cia-Iran" fromID="Baloch"/>
+		<isSpokenIn toID="cid-cia-Iran" fromID="Turkish"/>
+		<isPartOf fromID="cid-cia-Iran" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Iraq" toID="Persian Gulf"/>
+		<hasBorderTo fromID="cid-cia-Iraq" toID="cid-cia-Turkey"/>
+		<hasBorderTo fromID="cid-cia-Iraq" toID="cid-cia-Syria"/>
+		<hasBorderTo fromID="cid-cia-Iraq" toID="cid-cia-Saudi-Arabia"/>
+		<hasBorderTo fromID="cid-cia-Iraq" toID="cid-cia-Kuwait"/>
+		<hasBorderTo fromID="cid-cia-Iraq" toID="cid-cia-Jordan"/>
+		<isPartOf fromID="cid-cia-Iraq" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Israel" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Israel" toID="cid-cia-West-Bank"/>
+		<hasBorderTo fromID="cid-cia-Israel" toID="cid-cia-Syria"/>
+		<hasBorderTo fromID="cid-cia-Israel" toID="cid-cia-Lebanon"/>
+		<hasBorderTo fromID="cid-cia-Israel" toID="cid-cia-Jordan"/>
+		<isPartOf fromID="cid-cia-Israel" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Japan" toID="Korean Peninsula"/>
+		<hasBorderTo fromID="cid-cia-Japan" toID="Sea Of Japan"/>
+		<hasBorderTo fromID="cid-cia-Japan" toID="North Pacific Ocean"/>
+		<isSpokenIn toID="cid-cia-Japan" fromID="Japanese"/>
+		<isPartOf fromID="cid-cia-Japan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Jordan" toID="cid-cia-West-Bank"/>
+		<hasBorderTo fromID="cid-cia-Jordan" toID="cid-cia-Syria"/>
+		<hasBorderTo fromID="cid-cia-Jordan" toID="cid-cia-Saudi-Arabia"/>
+		<isPartOf fromID="cid-cia-Jordan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Kazakstan" toID="cid-cia-Uzbekistan"/>
+		<hasBorderTo fromID="cid-cia-Kazakstan" toID="cid-cia-Turkmenistan"/>
+		<hasBorderTo fromID="cid-cia-Kazakstan" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-Kazakstan" toID="cid-cia-Kyrgyzstan"/>
+		<isSpokenIn toID="cid-cia-Kazakstan" fromID="Kazak"/>
+		<isPartOf fromID="cid-cia-Kazakstan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-North-Korea" toID="Korean Peninsula"/>
+		<hasBorderTo fromID="cid-cia-North-Korea" toID="Sea Of Japan"/>
+		<hasBorderTo fromID="cid-cia-North-Korea" toID="Korea Bay"/>
+		<hasBorderTo fromID="cid-cia-North-Korea" toID="cid-cia-Russia"/>
+		<hasBorderTo fromID="cid-cia-North-Korea" toID="cid-cia-South-Korea"/>
+		<isSpokenIn toID="cid-cia-North-Korea" fromID="Korean"/>
+		<isPartOf fromID="cid-cia-North-Korea" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-South-Korea" toID="Korean Peninsula"/>
+		<hasBorderTo fromID="cid-cia-South-Korea" toID="Sea Of Japan"/>
+		<hasBorderTo fromID="cid-cia-South-Korea" toID="Yellow Sea"/>
+		<isPartOf fromID="cid-cia-South-Korea" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Kuwait" toID="Persian Gulf"/>
+		<hasBorderTo fromID="cid-cia-Kuwait" toID="cid-cia-Saudi-Arabia"/>
+		<isPartOf fromID="cid-cia-Kuwait" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Kyrgyzstan" toID="cid-cia-Uzbekistan"/>
+		<hasBorderTo fromID="cid-cia-Kyrgyzstan" toID="cid-cia-Tajikistan"/>
+		<isPartOf fromID="cid-cia-Kyrgyzstan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Laos" toID="cid-cia-Vietnam"/>
+		<hasBorderTo fromID="cid-cia-Laos" toID="cid-cia-Thailand"/>
+		<isPartOf fromID="cid-cia-Laos" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Lebanon" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Lebanon" toID="cid-cia-Syria"/>
+		<isPartOf fromID="cid-cia-Lebanon" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Macau" toID="South China Sea"/>
+		<isSpokenIn toID="cid-cia-Macau" fromID="Portuguese"/>
+		<isPartOf fromID="cid-cia-Macau" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Malaysia" toID="Borneo"/>
+		<hasBorderTo fromID="cid-cia-Malaysia" toID="South China Sea"/>
+		<hasBorderTo fromID="cid-cia-Malaysia" toID="cid-cia-Thailand"/>
+		<isPartOf fromID="cid-cia-Malaysia" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Maldives" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-Maldives" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Mongolia" toID="cid-cia-Russia"/>
+		<isSpokenIn toID="cid-cia-Mongolia" fromID="Khalkha Mongol"/>
+		<isPartOf fromID="cid-cia-Mongolia" toID="asia"/>
+		<isSpokenIn toID="cid-cia-Nepal" fromID="Nepali"/>
+		<isPartOf fromID="cid-cia-Nepal" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Oman" toID="UAE"/>
+		<hasBorderTo fromID="cid-cia-Oman" toID="Gulf Of Oman"/>
+		<hasBorderTo fromID="cid-cia-Oman" toID="Arabian Sea"/>
+		<hasBorderTo fromID="cid-cia-Oman" toID="Persian Gulf"/>
+		<hasBorderTo fromID="cid-cia-Oman" toID="cid-cia-Yemen"/>
+		<hasBorderTo fromID="cid-cia-Oman" toID="cid-cia-United-Arab-Emirates"/>
+		<hasBorderTo fromID="cid-cia-Oman" toID="cid-cia-Saudi-Arabia"/>
+		<isPartOf fromID="cid-cia-Oman" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Pakistan" toID="Arabian Sea"/>
+		<isSpokenIn toID="cid-cia-Pakistan" fromID="Siraiki"/>
+		<isSpokenIn toID="cid-cia-Pakistan" fromID="Brahui"/>
+		<isSpokenIn toID="cid-cia-Pakistan" fromID="Hindko"/>
+		<isSpokenIn toID="cid-cia-Pakistan" fromID="Balochi"/>
+		<isSpokenIn toID="cid-cia-Pakistan" fromID="Sindhi"/>
+		<isSpokenIn toID="cid-cia-Pakistan" fromID="Punjabi"/>
+		<isSpokenIn toID="cid-cia-Pakistan" fromID="Urdu"/>
+		<isSpokenIn toID="cid-cia-Pakistan" fromID="Pashtu"/>
+		<isPartOf fromID="cid-cia-Pakistan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Papua-New-Guinea" toID="South Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Papua-New-Guinea" toID="Coral Sea"/>
+		<hasBorderTo fromID="cid-cia-Papua-New-Guinea" toID="New Guinea"/>
+		<isSpokenIn toID="cid-cia-Papua-New-Guinea" fromID="English"/>
+		<isPartOf fromID="cid-cia-Papua-New-Guinea" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Paracel-Islands" toID="South China Sea"/>
+		<isPartOf fromID="cid-cia-Paracel-Islands" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Philippines" toID="Philippine Sea"/>
+		<hasBorderTo fromID="cid-cia-Philippines" toID="South China Sea"/>
+		<isPartOf fromID="cid-cia-Philippines" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Qatar" toID="Persian Gulf"/>
+		<hasBorderTo fromID="cid-cia-Qatar" toID="cid-cia-Saudi-Arabia"/>
+		<isPartOf fromID="cid-cia-Qatar" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Russia" toID="North Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Russia" toID="Arctic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Russia" toID="cid-cia-Ukraine"/>
+		<isSpokenIn toID="cid-cia-Russia" fromID="Russian"/>
+		<isPartOf fromID="cid-cia-Russia" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Saudi-Arabia" toID="Red Sea"/>
+		<hasBorderTo fromID="cid-cia-Saudi-Arabia" toID="Persian Gulf"/>
+		<hasBorderTo fromID="cid-cia-Saudi-Arabia" toID="cid-cia-Yemen"/>
+		<hasBorderTo fromID="cid-cia-Saudi-Arabia" toID="cid-cia-United-Arab-Emirates"/>
+		<isSpokenIn toID="cid-cia-Saudi-Arabia" fromID="Arabic"/>
+		<isPartOf fromID="cid-cia-Saudi-Arabia" toID="asia"/>
+		<isPartOf fromID="cid-cia-Singapore" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Spratly-Islands" toID="South China Sea"/>
+		<isPartOf fromID="cid-cia-Spratly-Islands" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Sri-Lanka" toID="Indian Ocean"/>
+		<isSpokenIn toID="cid-cia-Sri-Lanka" fromID="Sinhala"/>
+		<isSpokenIn toID="cid-cia-Sri-Lanka" fromID="Tamil"/>
+		<isPartOf fromID="cid-cia-Sri-Lanka" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Syria" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Syria" toID="cid-cia-Turkey"/>
+		<isPartOf fromID="cid-cia-Syria" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Taiwan" toID="Taiwan Strait"/>
+		<hasBorderTo fromID="cid-cia-Taiwan" toID="Philippine Sea"/>
+		<hasBorderTo fromID="cid-cia-Taiwan" toID="East China Sea"/>
+		<hasBorderTo fromID="cid-cia-Taiwan" toID="South China Sea"/>
+		<isPartOf fromID="cid-cia-Taiwan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Tajikistan" toID="cid-cia-Uzbekistan"/>
+		<isPartOf fromID="cid-cia-Tajikistan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Thailand" toID="Gulf Of Thailand"/>
+		<hasBorderTo fromID="cid-cia-Thailand" toID="Andaman Sea"/>
+		<isPartOf fromID="cid-cia-Thailand" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Turkey" toID="Aegean Sea"/>
+		<hasBorderTo fromID="cid-cia-Turkey" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Turkey" toID="Black Sea"/>
+		<isPartOf fromID="cid-cia-Turkey" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Turkmenistan" toID="Caspian Sea"/>
+		<hasBorderTo fromID="cid-cia-Turkmenistan" toID="cid-cia-Uzbekistan"/>
+		<isSpokenIn toID="cid-cia-Turkmenistan" fromID="Turkmen"/>
+		<isSpokenIn toID="cid-cia-Turkmenistan" fromID="Uzbek"/>
+		<isSpokenIn toID="cid-cia-Turkmenistan" fromID="Russian"/>
+		<isPartOf fromID="cid-cia-Turkmenistan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-United-Arab-Emirates" toID="Gulf Of Oman"/>
+		<hasBorderTo fromID="cid-cia-United-Arab-Emirates" toID="Persian Gulf"/>
+		<isPartOf fromID="cid-cia-United-Arab-Emirates" toID="asia"/>
+		<isSpokenIn toID="cid-cia-Uzbekistan" fromID="Uzbek"/>
+		<isSpokenIn toID="cid-cia-Uzbekistan" fromID="Tajik"/>
+		<isSpokenIn toID="cid-cia-Uzbekistan" fromID="Russian"/>
+		<isPartOf fromID="cid-cia-Uzbekistan" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Vietnam" toID="Gulf Of Tonkin"/>
+		<hasBorderTo fromID="cid-cia-Vietnam" toID="Gulf Of Thailand"/>
+		<hasBorderTo fromID="cid-cia-Vietnam" toID="South China Sea"/>
+		<isPartOf fromID="cid-cia-Vietnam" toID="asia"/>
+		<isPartOf fromID="cid-cia-West-Bank" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Yemen" toID="Gulf Of Aden"/>
+		<hasBorderTo fromID="cid-cia-Yemen" toID="Red Sea"/>
+		<hasBorderTo fromID="cid-cia-Yemen" toID="Arabian Sea"/>
+		<isSpokenIn toID="cid-cia-Yemen" fromID="Arabic"/>
+		<isPartOf fromID="cid-cia-Yemen" toID="asia"/>
+		<hasBorderTo fromID="cid-cia-Anguilla" toID="Caribbean Sea"/>
+		<isSpokenIn toID="cid-cia-Anguilla" fromID="English"/>
+		<isPartOf fromID="cid-cia-Anguilla" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Antigua-and-Barbuda" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Antigua-and-Barbuda" toID="North Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-Antigua-and-Barbuda" fromID="English"/>
+		<isPartOf fromID="cid-cia-Antigua-and-Barbuda" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Aruba" toID="Caribbean Sea"/>
+		<isPartOf fromID="cid-cia-Aruba" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Bahamas" toID="Florida"/>
+		<hasBorderTo fromID="cid-cia-Bahamas" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Bahamas" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Barbados" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Barbados" toID="North Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-Barbados" fromID="English"/>
+		<isPartOf fromID="cid-cia-Barbados" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Belize" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Belize" toID="cid-cia-Mexico"/>
+		<hasBorderTo fromID="cid-cia-Belize" toID="cid-cia-Guatemala"/>
+		<isPartOf fromID="cid-cia-Belize" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Bermuda" toID="North Carolina (US)"/>
+		<hasBorderTo fromID="cid-cia-Bermuda" toID="North Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-Bermuda" fromID="English"/>
+		<isPartOf fromID="cid-cia-Bermuda" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-British-Virgin-Islands" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-British-Virgin-Islands" toID="North Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-British-Virgin-Islands" fromID="English"/>
+		<isPartOf fromID="cid-cia-British-Virgin-Islands" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Canada" toID="North Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Canada" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Canada" toID="US"/>
+		<hasBorderTo fromID="cid-cia-Canada" toID="cid-cia-United-States"/>
+		<isPartOf fromID="cid-cia-Canada" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Cayman-Islands" toID="Caribbean Sea"/>
+		<isSpokenIn toID="cid-cia-Cayman-Islands" fromID="English"/>
+		<isPartOf fromID="cid-cia-Cayman-Islands" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Clipperton-Island" toID="120"/>
+		<hasBorderTo fromID="cid-cia-Clipperton-Island" toID="1"/>
+		<hasBorderTo fromID="cid-cia-Clipperton-Island" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Clipperton-Island" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Costa-Rica" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Costa-Rica" toID="North Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Costa-Rica" toID="cid-cia-Panama"/>
+		<hasBorderTo fromID="cid-cia-Costa-Rica" toID="cid-cia-Nicaragua"/>
+		<isPartOf fromID="cid-cia-Costa-Rica" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Cuba" toID="Florida"/>
+		<hasBorderTo fromID="cid-cia-Cuba" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Cuba" toID="North Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-Cuba" fromID="Spanish"/>
+		<isPartOf fromID="cid-cia-Cuba" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Dominica" toID="Tobago"/>
+		<hasBorderTo fromID="cid-cia-Dominica" toID="Trinidad"/>
+		<hasBorderTo fromID="cid-cia-Dominica" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Dominica" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Dominica" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Dominican-Republic" toID="Hispaniola"/>
+		<hasBorderTo fromID="cid-cia-Dominican-Republic" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Dominican-Republic" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Dominican-Republic" toID="cid-cia-Haiti"/>
+		<isSpokenIn toID="cid-cia-Dominican-Republic" fromID="Spanish"/>
+		<isPartOf fromID="cid-cia-Dominican-Republic" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-El-Salvador" toID="North Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-El-Salvador" toID="cid-cia-Honduras"/>
+		<hasBorderTo fromID="cid-cia-El-Salvador" toID="cid-cia-Guatemala"/>
+		<isPartOf fromID="cid-cia-El-Salvador" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Greenland" toID="Arctic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Greenland" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Greenland" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Grenada" toID="Tobago"/>
+		<hasBorderTo fromID="cid-cia-Grenada" toID="Trinidad"/>
+		<hasBorderTo fromID="cid-cia-Grenada" toID="Caribbean Sea"/>
+		<isPartOf fromID="cid-cia-Grenada" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Guadeloupe" toID="Caribbean Sea"/>
+		<isSpokenIn toID="cid-cia-Guadeloupe" fromID="French"/>
+		<isPartOf fromID="cid-cia-Guadeloupe" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Guatemala" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Guatemala" toID="North Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Guatemala" toID="cid-cia-Mexico"/>
+		<hasBorderTo fromID="cid-cia-Guatemala" toID="cid-cia-Honduras"/>
+		<isSpokenIn toID="cid-cia-Guatemala" fromID="Indian"/>
+		<isSpokenIn toID="cid-cia-Guatemala" fromID="Spanish"/>
+		<isPartOf fromID="cid-cia-Guatemala" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Haiti" toID="Hispaniola"/>
+		<hasBorderTo fromID="cid-cia-Haiti" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Haiti" toID="North Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-Haiti" fromID="French"/>
+		<isPartOf fromID="cid-cia-Haiti" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Honduras" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Honduras" toID="North Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Honduras" toID="cid-cia-Nicaragua"/>
+		<isPartOf fromID="cid-cia-Honduras" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Jamaica" toID="Caribbean Sea"/>
+		<isPartOf fromID="cid-cia-Jamaica" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Martinique" toID="Tobago"/>
+		<hasBorderTo fromID="cid-cia-Martinique" toID="Trinidad"/>
+		<hasBorderTo fromID="cid-cia-Martinique" toID="Caribbean Sea"/>
+		<isPartOf fromID="cid-cia-Martinique" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Mexico" toID="Gulf Of Mexico"/>
+		<hasBorderTo fromID="cid-cia-Mexico" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Mexico" toID="North Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Mexico" toID="US"/>
+		<hasBorderTo fromID="cid-cia-Mexico" toID="cid-cia-United-States"/>
+		<isPartOf fromID="cid-cia-Mexico" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Montserrat" toID="Caribbean Sea"/>
+		<isSpokenIn toID="cid-cia-Montserrat" fromID="English"/>
+		<isPartOf fromID="cid-cia-Montserrat" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Navassa-Island" toID="Caribbean Sea"/>
+		<isPartOf fromID="cid-cia-Navassa-Island" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Netherlands-Antilles" toID="Bonaire"/>
+		<hasBorderTo fromID="cid-cia-Netherlands-Antilles" toID="Curacao"/>
+		<hasBorderTo fromID="cid-cia-Netherlands-Antilles" toID="Caribbean Sea"/>
+		<isPartOf fromID="cid-cia-Netherlands-Antilles" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Nicaragua" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Nicaragua" toID="North Pacific Ocean"/>
+		<isSpokenIn toID="cid-cia-Nicaragua" fromID="Spanish"/>
+		<isPartOf fromID="cid-cia-Nicaragua" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Panama" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Panama" toID="North Pacific Ocean"/>
+		<isSpokenIn toID="cid-cia-Panama" fromID="English"/>
+		<isPartOf fromID="cid-cia-Panama" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Puerto-Rico" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Puerto-Rico" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Puerto-Rico" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Saint-Kitts-and-Nevis" toID="Tobago"/>
+		<hasBorderTo fromID="cid-cia-Saint-Kitts-and-Nevis" toID="Trinidad"/>
+		<hasBorderTo fromID="cid-cia-Saint-Kitts-and-Nevis" toID="Caribbean Sea"/>
+		<isSpokenIn toID="cid-cia-Saint-Kitts-and-Nevis" fromID="English"/>
+		<isPartOf fromID="cid-cia-Saint-Kitts-and-Nevis" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Saint-Lucia" toID="Tobago"/>
+		<hasBorderTo fromID="cid-cia-Saint-Lucia" toID="Trinidad"/>
+		<hasBorderTo fromID="cid-cia-Saint-Lucia" toID="Caribbean Sea"/>
+		<isPartOf fromID="cid-cia-Saint-Lucia" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Saint-Pierre-and-Miquelon" toID="Newfoundland (Canada)"/>
+		<hasBorderTo fromID="cid-cia-Saint-Pierre-and-Miquelon" toID="North Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-Saint-Pierre-and-Miquelon" fromID="French"/>
+		<isPartOf fromID="cid-cia-Saint-Pierre-and-Miquelon" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Saint-Vincent-and-the-Grenadines" toID="Tobago"/>
+		<hasBorderTo fromID="cid-cia-Saint-Vincent-and-the-Grenadines" toID="Trinidad"/>
+		<hasBorderTo fromID="cid-cia-Saint-Vincent-and-the-Grenadines" toID="Caribbean Sea"/>
+		<isPartOf fromID="cid-cia-Saint-Vincent-and-the-Grenadines" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Trinidad-and-Tobago" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Trinidad-and-Tobago" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Trinidad-and-Tobago" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Turks-and-Caicos-Islands" toID="The Bahamas"/>
+		<hasBorderTo fromID="cid-cia-Turks-and-Caicos-Islands" toID="North Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-Turks-and-Caicos-Islands" fromID="English"/>
+		<isPartOf fromID="cid-cia-Turks-and-Caicos-Islands" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-United-States" toID="North Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-United-States" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-United-States" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-Virgin-Islands" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Virgin-Islands" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Virgin-Islands" toID="northAmerica"/>
+		<hasBorderTo fromID="cid-cia-American-Samoa" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-American-Samoa" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Australia" toID="South Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Australia" toID="Indian Ocean"/>
+		<isSpokenIn toID="cid-cia-Australia" fromID="English"/>
+		<isPartOf fromID="cid-cia-Australia" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Baker-Island" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Baker-Island" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Cook-Islands" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Cook-Islands" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Coral-Sea-Islands" toID="Coral Sea"/>
+		<isPartOf fromID="cid-cia-Coral-Sea-Islands" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Fiji" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Fiji" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-French-Polynesia" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-French-Polynesia" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Guam" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Guam" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Howland-Island" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Howland-Island" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Jarvis-Island" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Jarvis-Island" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Johnston-Atoll" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Johnston-Atoll" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Kingman-Reef" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Kingman-Reef" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Kiribati" toID="International Date Line"/>
+		<hasBorderTo fromID="cid-cia-Kiribati" toID="Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Kiribati" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Marshall-Islands" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Marshall-Islands" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Micronesia" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Micronesia" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Midway-Islands" toID="Honolulu"/>
+		<hasBorderTo fromID="cid-cia-Midway-Islands" toID="North Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Midway-Islands" toID="Tokyo"/>
+		<isPartOf fromID="cid-cia-Midway-Islands" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Nauru" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Nauru" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-New-Caledonia" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-New-Caledonia" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-New-Zealand" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-New-Zealand" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Niue" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Niue" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Norfolk-Island" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Norfolk-Island" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Northern-Mariana-Islands" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Northern-Mariana-Islands" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Palau" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Palau" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Palmyra-Atoll" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Palmyra-Atoll" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Pitcairn-Islands" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Pitcairn-Islands" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Solomon-Islands" toID="South Pacific Ocean"/>
+		<isSpokenIn toID="cid-cia-Solomon-Islands" fromID="English"/>
+		<isPartOf fromID="cid-cia-Solomon-Islands" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Tokelau" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Tokelau" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Tonga" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Tonga" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Tuvalu" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Tuvalu" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Vanuatu" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Vanuatu" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Wake-Island" toID="North Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Wake-Island" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Wallis-and-Futuna" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Wallis-and-Futuna" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Western-Samoa" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Western-Samoa" toID="australia"/>
+		<hasBorderTo fromID="cid-cia-Argentina" toID="South Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Argentina" toID="cid-cia-Uruguay"/>
+		<hasBorderTo fromID="cid-cia-Argentina" toID="cid-cia-Paraguay"/>
+		<hasBorderTo fromID="cid-cia-Argentina" toID="cid-cia-Chile"/>
+		<hasBorderTo fromID="cid-cia-Argentina" toID="cid-cia-Brazil"/>
+		<hasBorderTo fromID="cid-cia-Argentina" toID="cid-cia-Bolivia"/>
+		<isPartOf fromID="cid-cia-Argentina" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Bolivia" toID="cid-cia-Peru"/>
+		<hasBorderTo fromID="cid-cia-Bolivia" toID="cid-cia-Paraguay"/>
+		<hasBorderTo fromID="cid-cia-Bolivia" toID="cid-cia-Chile"/>
+		<hasBorderTo fromID="cid-cia-Bolivia" toID="cid-cia-Brazil"/>
+		<isPartOf fromID="cid-cia-Bolivia" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Brazil" toID="Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Brazil" toID="cid-cia-Venezuela"/>
+		<hasBorderTo fromID="cid-cia-Brazil" toID="cid-cia-Uruguay"/>
+		<hasBorderTo fromID="cid-cia-Brazil" toID="cid-cia-Suriname"/>
+		<hasBorderTo fromID="cid-cia-Brazil" toID="cid-cia-Peru"/>
+		<hasBorderTo fromID="cid-cia-Brazil" toID="cid-cia-Paraguay"/>
+		<hasBorderTo fromID="cid-cia-Brazil" toID="cid-cia-Guyana"/>
+		<hasBorderTo fromID="cid-cia-Brazil" toID="cid-cia-French-Guiana"/>
+		<hasBorderTo fromID="cid-cia-Brazil" toID="cid-cia-Colombia"/>
+		<isPartOf fromID="cid-cia-Brazil" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Chile" toID="South Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Chile" toID="South Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Chile" toID="cid-cia-Peru"/>
+		<isSpokenIn toID="cid-cia-Chile" fromID="Spanish"/>
+		<isPartOf fromID="cid-cia-Chile" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Colombia" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Colombia" toID="North Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Colombia" toID="cid-cia-Venezuela"/>
+		<hasBorderTo fromID="cid-cia-Colombia" toID="cid-cia-Peru"/>
+		<hasBorderTo fromID="cid-cia-Colombia" toID="cid-cia-Ecuador"/>
+		<hasBorderTo fromID="cid-cia-Colombia" toID="cid-cia-Panama"/>
+		<isSpokenIn toID="cid-cia-Colombia" fromID="Spanish"/>
+		<isPartOf fromID="cid-cia-Colombia" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Ecuador" toID="Pacific Ocean"/>
+		<hasBorderTo fromID="cid-cia-Ecuador" toID="cid-cia-Peru"/>
+		<isPartOf fromID="cid-cia-Ecuador" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Falkland-Islands" toID="South Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-Falkland-Islands" fromID="English"/>
+		<isPartOf fromID="cid-cia-Falkland-Islands" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-French-Guiana" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-French-Guiana" toID="cid-cia-Suriname"/>
+		<isSpokenIn toID="cid-cia-French-Guiana" fromID="French"/>
+		<isPartOf fromID="cid-cia-French-Guiana" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Guyana" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Guyana" toID="cid-cia-Venezuela"/>
+		<hasBorderTo fromID="cid-cia-Guyana" toID="cid-cia-Suriname"/>
+		<isPartOf fromID="cid-cia-Guyana" toID="southAmerica"/>
+		<isPartOf fromID="cid-cia-Paraguay" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Peru" toID="South Pacific Ocean"/>
+		<isPartOf fromID="cid-cia-Peru" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-South-Georgia-and-the-South-Sandwich-Islands" toID="South Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-South-Georgia-and-the-South-Sandwich-Islands" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Suriname" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Suriname" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Uruguay" toID="South Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Uruguay" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Venezuela" toID="Caribbean Sea"/>
+		<hasBorderTo fromID="cid-cia-Venezuela" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Venezuela" toID="southAmerica"/>
+		<hasBorderTo fromID="cid-cia-Algeria" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Algeria" toID="cid-cia-Western-Sahara"/>
+		<hasBorderTo fromID="cid-cia-Algeria" toID="cid-cia-Tunisia"/>
+		<hasBorderTo fromID="cid-cia-Algeria" toID="cid-cia-Niger"/>
+		<hasBorderTo fromID="cid-cia-Algeria" toID="cid-cia-Morocco"/>
+		<hasBorderTo fromID="cid-cia-Algeria" toID="cid-cia-Mauritania"/>
+		<hasBorderTo fromID="cid-cia-Algeria" toID="cid-cia-Mali"/>
+		<hasBorderTo fromID="cid-cia-Algeria" toID="cid-cia-Libya"/>
+		<isPartOf fromID="cid-cia-Algeria" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Angola" toID="South Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Angola" toID="cid-cia-Zambia"/>
+		<hasBorderTo fromID="cid-cia-Angola" toID="cid-cia-Zaire"/>
+		<hasBorderTo fromID="cid-cia-Angola" toID="cid-cia-Namibia"/>
+		<hasBorderTo fromID="cid-cia-Angola" toID="cid-cia-Congo"/>
+		<isPartOf fromID="cid-cia-Angola" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Bassas-da-India" toID="Mozambique Channel"/>
+		<isPartOf fromID="cid-cia-Bassas-da-India" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Benin" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Benin" toID="cid-cia-Togo"/>
+		<hasBorderTo fromID="cid-cia-Benin" toID="cid-cia-Nigeria"/>
+		<hasBorderTo fromID="cid-cia-Benin" toID="cid-cia-Niger"/>
+		<hasBorderTo fromID="cid-cia-Benin" toID="cid-cia-Burkina-Faso"/>
+		<isPartOf fromID="cid-cia-Benin" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Botswana" toID="cid-cia-Zimbabwe"/>
+		<hasBorderTo fromID="cid-cia-Botswana" toID="cid-cia-South-Africa"/>
+		<hasBorderTo fromID="cid-cia-Botswana" toID="cid-cia-Namibia"/>
+		<isPartOf fromID="cid-cia-Botswana" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Bouvet-Island" toID="Cape Of Good Hope (South Africa)"/>
+		<hasBorderTo fromID="cid-cia-Bouvet-Island" toID="South Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Bouvet-Island" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Burkina-Faso" toID="cid-cia-Togo"/>
+		<hasBorderTo fromID="cid-cia-Burkina-Faso" toID="cid-cia-Niger"/>
+		<hasBorderTo fromID="cid-cia-Burkina-Faso" toID="cid-cia-Mali"/>
+		<hasBorderTo fromID="cid-cia-Burkina-Faso" toID="cid-cia-Ghana"/>
+		<hasBorderTo fromID="cid-cia-Burkina-Faso" toID="cid-cia-Cote-dIvoire"/>
+		<isPartOf fromID="cid-cia-Burkina-Faso" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Burundi" toID="cid-cia-Zaire"/>
+		<hasBorderTo fromID="cid-cia-Burundi" toID="cid-cia-Tanzania"/>
+		<hasBorderTo fromID="cid-cia-Burundi" toID="cid-cia-Rwanda"/>
+		<isPartOf fromID="cid-cia-Burundi" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Cameroon" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Cameroon" toID="cid-cia-Nigeria"/>
+		<hasBorderTo fromID="cid-cia-Cameroon" toID="cid-cia-Gabon"/>
+		<hasBorderTo fromID="cid-cia-Cameroon" toID="cid-cia-Equatorial-Guinea"/>
+		<hasBorderTo fromID="cid-cia-Cameroon" toID="cid-cia-Congo"/>
+		<hasBorderTo fromID="cid-cia-Cameroon" toID="cid-cia-Chad"/>
+		<hasBorderTo fromID="cid-cia-Cameroon" toID="cid-cia-Central-African-Republic"/>
+		<isPartOf fromID="cid-cia-Cameroon" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Cape-Verde" toID="Islands"/>
+		<hasBorderTo fromID="cid-cia-Cape-Verde" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Cape-Verde" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Central-African-Republic" toID="cid-cia-Zaire"/>
+		<hasBorderTo fromID="cid-cia-Central-African-Republic" toID="cid-cia-Sudan"/>
+		<hasBorderTo fromID="cid-cia-Central-African-Republic" toID="cid-cia-Congo"/>
+		<hasBorderTo fromID="cid-cia-Central-African-Republic" toID="cid-cia-Chad"/>
+		<isPartOf fromID="cid-cia-Central-African-Republic" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Chad" toID="cid-cia-Sudan"/>
+		<hasBorderTo fromID="cid-cia-Chad" toID="cid-cia-Nigeria"/>
+		<hasBorderTo fromID="cid-cia-Chad" toID="cid-cia-Niger"/>
+		<hasBorderTo fromID="cid-cia-Chad" toID="cid-cia-Libya"/>
+		<isPartOf fromID="cid-cia-Chad" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Comoros" toID="Mozambique Channel"/>
+		<isPartOf fromID="cid-cia-Comoros" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Congo" toID="South Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Congo" toID="cid-cia-Zaire"/>
+		<hasBorderTo fromID="cid-cia-Congo" toID="cid-cia-Gabon"/>
+		<isPartOf fromID="cid-cia-Congo" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Cote-dIvoire" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Cote-dIvoire" toID="cid-cia-Mali"/>
+		<hasBorderTo fromID="cid-cia-Cote-dIvoire" toID="cid-cia-Liberia"/>
+		<hasBorderTo fromID="cid-cia-Cote-dIvoire" toID="cid-cia-Guinea"/>
+		<hasBorderTo fromID="cid-cia-Cote-dIvoire" toID="cid-cia-Ghana"/>
+		<isPartOf fromID="cid-cia-Cote-dIvoire" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Djibouti" toID="Gulf Of Aden"/>
+		<hasBorderTo fromID="cid-cia-Djibouti" toID="Red Sea"/>
+		<hasBorderTo fromID="cid-cia-Djibouti" toID="cid-cia-Somalia"/>
+		<hasBorderTo fromID="cid-cia-Djibouti" toID="cid-cia-Ethiopia"/>
+		<hasBorderTo fromID="cid-cia-Djibouti" toID="cid-cia-Eritrea"/>
+		<isPartOf fromID="cid-cia-Djibouti" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Egypt" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Egypt" toID="cid-cia-Sudan"/>
+		<hasBorderTo fromID="cid-cia-Egypt" toID="cid-cia-Libya"/>
+		<hasBorderTo fromID="cid-cia-Egypt" toID="cid-cia-Israel"/>
+		<hasBorderTo fromID="cid-cia-Egypt" toID="cid-cia-Gaza-Strip"/>
+		<isPartOf fromID="cid-cia-Egypt" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Equatorial-Guinea" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Equatorial-Guinea" toID="cid-cia-Gabon"/>
+		<isPartOf fromID="cid-cia-Equatorial-Guinea" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Eritrea" toID="Red Sea"/>
+		<hasBorderTo fromID="cid-cia-Eritrea" toID="cid-cia-Sudan"/>
+		<hasBorderTo fromID="cid-cia-Eritrea" toID="cid-cia-Ethiopia"/>
+		<isPartOf fromID="cid-cia-Eritrea" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Ethiopia" toID="cid-cia-Sudan"/>
+		<hasBorderTo fromID="cid-cia-Ethiopia" toID="cid-cia-Somalia"/>
+		<hasBorderTo fromID="cid-cia-Ethiopia" toID="cid-cia-Kenya"/>
+		<isPartOf fromID="cid-cia-Ethiopia" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Europa-Island" toID="Mozambique Channel"/>
+		<isPartOf fromID="cid-cia-Europa-Island" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="Adelie Land"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="French-claimed"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="Iles Kerguelen"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="Iles Crozet"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="Ile Saint-Paul"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="Ile Amsterdam"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="Antarctic Lands"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="French Southern"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="Australia"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="Antarctica"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="Indian Ocean"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="French"/>
+		<hasBorderTo fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="US"/>
+		<isPartOf fromID="cid-cia-French-Southern-and-Antarctic-Lands" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Gabon" toID="Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Gabon" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Gambia" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Gambia" toID="cid-cia-Senegal"/>
+		<isPartOf fromID="cid-cia-Gambia" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Ghana" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Ghana" toID="cid-cia-Togo"/>
+		<isPartOf fromID="cid-cia-Ghana" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Glorioso-Islands" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-Glorioso-Islands" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Guinea" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Guinea" toID="cid-cia-Sierra-Leone"/>
+		<hasBorderTo fromID="cid-cia-Guinea" toID="cid-cia-Senegal"/>
+		<hasBorderTo fromID="cid-cia-Guinea" toID="cid-cia-Mali"/>
+		<hasBorderTo fromID="cid-cia-Guinea" toID="cid-cia-Liberia"/>
+		<hasBorderTo fromID="cid-cia-Guinea" toID="cid-cia-Guinea-Bissau"/>
+		<isSpokenIn toID="cid-cia-Guinea" fromID="French"/>
+		<isPartOf fromID="cid-cia-Guinea" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Guinea-Bissau" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Guinea-Bissau" toID="cid-cia-Senegal"/>
+		<isPartOf fromID="cid-cia-Guinea-Bissau" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Heard-Island-and-McDonald-Islands" toID="Antarctica"/>
+		<hasBorderTo fromID="cid-cia-Heard-Island-and-McDonald-Islands" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-Heard-Island-and-McDonald-Islands" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Juan-de-Nova-Island" toID="Mozambique Channel"/>
+		<isPartOf fromID="cid-cia-Juan-de-Nova-Island" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Kenya" toID="Indian Ocean"/>
+		<hasBorderTo fromID="cid-cia-Kenya" toID="cid-cia-Uganda"/>
+		<hasBorderTo fromID="cid-cia-Kenya" toID="cid-cia-Tanzania"/>
+		<hasBorderTo fromID="cid-cia-Kenya" toID="cid-cia-Sudan"/>
+		<hasBorderTo fromID="cid-cia-Kenya" toID="cid-cia-Somalia"/>
+		<isPartOf fromID="cid-cia-Kenya" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Lesotho" toID="cid-cia-South-Africa"/>
+		<isPartOf fromID="cid-cia-Lesotho" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Liberia" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Liberia" toID="cid-cia-Sierra-Leone"/>
+		<isSpokenIn toID="cid-cia-Liberia" fromID="English"/>
+		<isPartOf fromID="cid-cia-Liberia" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Libya" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Libya" toID="cid-cia-Tunisia"/>
+		<hasBorderTo fromID="cid-cia-Libya" toID="cid-cia-Sudan"/>
+		<hasBorderTo fromID="cid-cia-Libya" toID="cid-cia-Niger"/>
+		<isPartOf fromID="cid-cia-Libya" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Madagascar" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-Madagascar" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Malawi" toID="cid-cia-Zambia"/>
+		<hasBorderTo fromID="cid-cia-Malawi" toID="cid-cia-Tanzania"/>
+		<hasBorderTo fromID="cid-cia-Malawi" toID="cid-cia-Mozambique"/>
+		<isPartOf fromID="cid-cia-Malawi" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Mali" toID="cid-cia-Senegal"/>
+		<hasBorderTo fromID="cid-cia-Mali" toID="cid-cia-Niger"/>
+		<hasBorderTo fromID="cid-cia-Mali" toID="cid-cia-Mauritania"/>
+		<isSpokenIn toID="cid-cia-Mali" fromID="Bambara"/>
+		<isPartOf fromID="cid-cia-Mali" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Mauritania" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Mauritania" toID="cid-cia-Western-Sahara"/>
+		<hasBorderTo fromID="cid-cia-Mauritania" toID="cid-cia-Senegal"/>
+		<isPartOf fromID="cid-cia-Mauritania" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Mauritius" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-Mauritius" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Mayotte" toID="Mozambique Channel"/>
+		<isPartOf fromID="cid-cia-Mayotte" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Morocco" toID="North Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Morocco" toID="Mediterranean Sea"/>
+		<hasBorderTo fromID="cid-cia-Morocco" toID="cid-cia-Western-Sahara"/>
+		<isPartOf fromID="cid-cia-Morocco" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Mozambique" toID="Mozambique Channel"/>
+		<hasBorderTo fromID="cid-cia-Mozambique" toID="cid-cia-Zimbabwe"/>
+		<hasBorderTo fromID="cid-cia-Mozambique" toID="cid-cia-Zambia"/>
+		<hasBorderTo fromID="cid-cia-Mozambique" toID="cid-cia-Tanzania"/>
+		<hasBorderTo fromID="cid-cia-Mozambique" toID="cid-cia-Swaziland"/>
+		<hasBorderTo fromID="cid-cia-Mozambique" toID="cid-cia-South-Africa"/>
+		<isSpokenIn toID="cid-cia-Mozambique" fromID="Portuguese"/>
+		<isPartOf fromID="cid-cia-Mozambique" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Namibia" toID="South Atlantic Ocean"/>
+		<hasBorderTo fromID="cid-cia-Namibia" toID="cid-cia-Zambia"/>
+		<hasBorderTo fromID="cid-cia-Namibia" toID="cid-cia-South-Africa"/>
+		<isSpokenIn toID="cid-cia-Namibia" fromID="Afrikaans"/>
+		<isSpokenIn toID="cid-cia-Namibia" fromID="English"/>
+		<isSpokenIn toID="cid-cia-Namibia" fromID="German"/>
+		<isPartOf fromID="cid-cia-Namibia" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Niger" toID="cid-cia-Nigeria"/>
+		<isPartOf fromID="cid-cia-Niger" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Nigeria" toID="Gulf Of Guinea"/>
+		<isPartOf fromID="cid-cia-Nigeria" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Reunion" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-Reunion" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Rwanda" toID="cid-cia-Zaire"/>
+		<hasBorderTo fromID="cid-cia-Rwanda" toID="cid-cia-Uganda"/>
+		<hasBorderTo fromID="cid-cia-Rwanda" toID="cid-cia-Tanzania"/>
+		<isPartOf fromID="cid-cia-Rwanda" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Saint-Helena" toID="South Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-Saint-Helena" fromID="English"/>
+		<isPartOf fromID="cid-cia-Saint-Helena" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Sao-Tome-and-Principe" toID="Atlantic Ocean"/>
+		<isSpokenIn toID="cid-cia-Sao-Tome-and-Principe" fromID="Portuguese"/>
+		<isPartOf fromID="cid-cia-Sao-Tome-and-Principe" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Senegal" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Senegal" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Seychelles" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-Seychelles" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Sierra-Leone" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Sierra-Leone" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Somalia" toID="Gulf Of Aden"/>
+		<hasBorderTo fromID="cid-cia-Somalia" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-Somalia" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-South-Africa" toID="cid-cia-Zimbabwe"/>
+		<hasBorderTo fromID="cid-cia-South-Africa" toID="cid-cia-Swaziland"/>
+		<isPartOf fromID="cid-cia-South-Africa" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Sudan" toID="Red Sea"/>
+		<hasBorderTo fromID="cid-cia-Sudan" toID="cid-cia-Zaire"/>
+		<hasBorderTo fromID="cid-cia-Sudan" toID="cid-cia-Uganda"/>
+		<isPartOf fromID="cid-cia-Sudan" toID="africa"/>
+		<isPartOf fromID="cid-cia-Swaziland" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Tanzania" toID="Indian Ocean"/>
+		<hasBorderTo fromID="cid-cia-Tanzania" toID="cid-cia-Zambia"/>
+		<hasBorderTo fromID="cid-cia-Tanzania" toID="cid-cia-Uganda"/>
+		<isPartOf fromID="cid-cia-Tanzania" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Togo" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Togo" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Tromelin-Island" toID="Indian Ocean"/>
+		<isPartOf fromID="cid-cia-Tromelin-Island" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Tunisia" toID="Mediterranean Sea"/>
+		<isPartOf fromID="cid-cia-Tunisia" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Uganda" toID="cid-cia-Zaire"/>
+		<isPartOf fromID="cid-cia-Uganda" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Western-Sahara" toID="North Atlantic Ocean"/>
+		<isPartOf fromID="cid-cia-Western-Sahara" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Zaire" toID="cid-cia-Zambia"/>
+		<isPartOf fromID="cid-cia-Zaire" toID="africa"/>
+		<hasBorderTo fromID="cid-cia-Zambia" toID="cid-cia-Zimbabwe"/>
+		<isPartOf fromID="cid-cia-Zambia" toID="africa"/>
+		<isPartOf fromID="cid-cia-Zimbabwe" toID="africa"/>
+	</Relations>
+</RelationViewerData>

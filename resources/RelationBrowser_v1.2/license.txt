@@ -1,0 +1,47 @@
+
+	Relation Browser code and .fla files
+	by Moritz Stefaner (http://der-mo.net)
+	v1.0
+
+-
+	
+	This work is distributed under a
+	
+	Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License
+	(http://creativecommons.org/licenses/by-nc-sa/2.5/)
+
+	(I am aware that the Creative Commons license is not tailored 
+	specifically for software products, but I chose it due to its
+	simplicity and understandability.)
+	
+	You can use this work or derivatives free of charge:
+	
+	> in a non-commercial context
+	> if you redistribute under same license
+	> and as long as you insert the following notice in your web 
+	  page or application:
+	
+	based on Moritz Stefaner's Relation Browser 
+	(http://der-mo.net/RelationBrowser)
+	
+	And of course, I would be happy if you could send me a 
+	short notice and a screenshot or the URL of your web page.
+	
+	Any of these conditions can be waived if you get permission from me.
+	So in doubt - ask.
+	
+-
+
+	Thanks to 
+	
+	Tatsuo Kato	
+	for the TK Tween Engine "dynTweenMX" v1.34
+	(http://tatsuokato.com/flash/dynTweenMX.html)
+	used in this project
+
+-
+	
+	If you have questions, ideas, or want to contribute, 
+	feel free to contact me@der-mo.net 
+
+-

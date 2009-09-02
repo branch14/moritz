@@ -1,0 +1,13 @@
+v1.2
+------------------------------------------------------------
+
+- scale mode noScale, automatically adjust UI to size of Flash area
+- picture nodes
+- rewrite tweening, event model
+- progressive loading
+- integrate icons, more node types
+
+later:
+
+- last fm / amazon API
+- weighted connections

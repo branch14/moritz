@@ -47,7 +47,7 @@ module Moritz
     def initialize
       # @model = self.controller_name.pluralize.singularize.camelize.constantize
       @model = self.class.relation_browser_config.model
-      @templates_path = File.join(RAILS_ROOT, *%w(vendor plugins moritz views))
+      @templates_path = File.join(RAILS_ROOT, *%w(vendor plugins moritz resources views))
     end
     
     # def relationships
@@ -56,6 +56,7 @@ module Moritz
     
     def root
       @root = @model.new(params[:id])
+      logger.debug("####{@root.inspect}###")
       render :file => File.join(@templates_path, "root.rxml")
     end
     
