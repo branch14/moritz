@@ -1,8 +1,12 @@
-Moritz
-======
+Moritz Plugin
+=============
 
 Moritz is a Plugin for Ruby On Rails that helps bringing Moritz
 Stefaner's Relation Browser easily to any Rails App.
+
+Install it like this
+
+  $ script/plugin install git://github.com/branch14/moritz.git
 
 Please find Moritz's work here:
 
@@ -24,6 +28,10 @@ Manual Install
 1. Generate a proxy model, e.g.
 
    $ script/generate moritz mproxy
+
+   Rename the generated model
+
+   $ mv app/models/mproxy.rb_ app/models/mproxy.rb
 
 2. Generate a proxy controller, e.g.
    (just in case you don't want to use an existing controller)
