@@ -5,7 +5,7 @@ xml.RelationViewerData 'status_code' => 0, 'status_message' => 'Success' do
     @object.direct_children.each do |child|
       xml.Node( :id => "#{child.class.to_s}-#{child.id}", 
                 :name => child.name, 
-                :dataURL => url_for( :controller => :special,
+                :dataURL => url_for( :controller => controller.controller_name,
                                      :action => "children", 
                                      :id => child.id
                                    )

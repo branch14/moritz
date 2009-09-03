@@ -56,7 +56,7 @@ module Moritz
     
     def root
       @root = @model.new(params[:id])
-      logger.debug("####{@root.inspect}###")
+      # logger.debug("####{@root.inspect}###")
       render :file => File.join(@templates_path, "root.rxml")
     end
     

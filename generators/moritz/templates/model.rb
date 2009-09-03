@@ -13,7 +13,7 @@ class <%= class_name %>
   end
   
   def obj
-    object ||= Kernel.const_get(self.obj_class).find(self.obj_id)
+    object ||= self.obj_class.find(self.obj_id)
   end
   
   def id

@@ -22,7 +22,7 @@ xml.RelationViewerData 'status_code' => 0, 'status_message' => 'Success' do
   xml.Nodes do
     xml.Node( :id => "#{@root.class.to_s}-#{@root.id}", 
               :name => @root.name, 
-              :dataURL => url_for( :controller => :special,
+              :dataURL => url_for( :controller => controller.controller_name,
                                    :action => "children", 
                                    :id => @root.id 
                                  )  
@@ -30,7 +30,7 @@ xml.RelationViewerData 'status_code' => 0, 'status_message' => 'Success' do
     @root.direct_children.each do |child| 
       xml.Node( :id => "#{child.class.to_s}-#{child.id}", 
                 :name => child.name, 
-                :dataURL => url_for( :controller => :special,
+                :dataURL => url_for( :controller => controller.controller_name,
                                      :action => "children", 
                                      :id => child.id
                                    )
