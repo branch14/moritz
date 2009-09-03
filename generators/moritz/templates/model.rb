@@ -21,8 +21,7 @@ class <%= class_name %>
   end
   
   def name
-    return obj.display_name if obj.class.public_method_defined? :display_name
-    return obj.name if obj.class.column_names.include? :name
+    return obj.name if obj.respond_to? :name
     return "#{id}"
   end
   
