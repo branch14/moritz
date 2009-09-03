@@ -20,24 +20,48 @@ namespace :moritz do
       Rails::Generator::Scripts::Generate.new.run(args)
     end
     # insert "relation_browser :#{model}" as 2nd line of controller
-    path = File.join(['app', 'controller', "#{controller}_controller.rb"])
-    FileUtils.sh("sed -i '2i\\  relation_browser :#{model}' #{path}")
+    src = File.join(%w(app controllers) << "#{controller}_controller.rb")
+    system("sed -i '2i\\  relation_browser :#{model}' #{src}")
     # copy views
-    path = File.join(%w(vendor plugins moritz resources views root.rxml))
-    FileUtils.cp(path, File.join(%w(app views #{controller})))
-    path = File.join(%w(vendor plugins moritz resources views children.rxml))
-    FileUtils.cp(path, File.join(%w(app views #{controller})))
+    src = File.join(%w(vendor plugins moritz resources views root.rxml))
+    FileUtils.cp(src, File.join(%w(app views) << controller))
+    src = File.join(%w(vendor plugins moritz resources views children.rxml))
+    FileUtils.cp(src, File.join(%w(app views) << controller))
     # copy flash
-    path = File.join(%w(vendor plugins moritz resources RelationBrowser_v1.2 generic RelationBrowser.swf))
-    FileUtils.cp(path, File.join(%w(public)))
+    src = File.join(%w(vendor plugins moritz resources RelationBrowser_v1.2 generic RelationBrowser.swf))
+    FileUtils.cp(src, File.join(%w(public)))
+    # rename model.rb_ to model.rb
+    src = File.join(%w(app models) << "#{model}.rb_")
+    dst = File.join(%w(app models) << "#{model}.rb")
+    FileUtils.mv(src, dst)
     # output message, where to browse to
     puts "done. now browse to ..."
     puts "\t/RelationBrowser.swf?dataSource=/#{controller}/root/<model>_<id>"
   end
 
-  # desc "Uninstall Moritz Stefaner's Relation Browser"
-  # task :uninstall do
-  # end
+  desc "Uninstall Moritz Stefaner's Relation Browser"
+  task :uninstall => :init do
+    model, controller = ENV['model'], ENV['controller']
+    # delete model
+    src = File.join(%w(app models) << "#{model}.rb")
+    puts "removing: #{src}"
+    FileUtils.rm(src)
+    # remove 2nd line from controller
+    src = File.join(%w(app controllers) << "#{controller}_controller.rb")
+    puts "editing: #{src}"
+    system("sed -i '2D' #{src}")
+    # delete views
+    src = File.join(%w(app views) << controller << 'root.rxml')
+    puts "removing: #{src}"
+    FileUtils.rm(src)
+    src = File.join(%w(app views) << controller << 'children.rxml')
+    puts "removing: #{src}"
+    FileUtils.rm(src)
+    # delete falsh
+    src = File.join(%w(public RelationBrowser.swf))
+    puts "removing: #{src}"
+    FileUtils.rm(src)
+  end
 
 end
 
